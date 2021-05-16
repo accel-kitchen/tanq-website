@@ -110,33 +110,8 @@ include($webroot."/header.php");
             </div>
 
             <div class="schedule row">
-                <div class="col-md-3 schedule-time">
-                    16:10 - 16:20
-                </div>
-                <div class="col-md-9">
-                    <h3>μ粒子の寿命測定
-                    </h3>
-                    <p class="schedule-description">
-                        <span class="material-icons icon">location_on</span><span class="margin">山形県</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">米沢興譲館高等学校</span>
-                        <span class="material-icons icon">supervisor_account</span> <span class="margin">東北大2年 斎藤隆太</span>
-                        <br>
-                    </p>
-                    <p class="schedule-speaker">
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 宮原杏奈</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 高梨美佳</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 髙橋夢玖</span>
-                    </p>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
-                    <button onclick="location.href='<?php echo $urlroot ?>/material/kojyokan-jps-2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>物理学会Jr.セッション研究レポート</button>
-                </div>
-            </div>
-
-
-
-            <div class="schedule row">
                 <div class="col-sm-6 col-md-3 schedule-time">
-                    16:25 - 16:35
+                    16:15 - 16:25
                 </div>
                 <div class="col-md-9">
                     <h3>宇宙線による学校のコンクリート厚推定</h3>
@@ -158,7 +133,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-sm-6 col-md-3 schedule-time">
-                    16:55 - 17:05
+                    16:30 - 16:40
                 </div>
                 <div class="col-md-9">
                     <h3>色素ゲルを用いた電子ビームによる吸収線量分布測定</h3>
@@ -179,7 +154,7 @@ include($webroot."/header.php");
             <div class="schedule row">
 
                 <div class="col-md-3 schedule-time">
-                    17:10 - 17:20
+                    16:45 - 16:55
                 </div>
                 <div class="col-md-9">
                     <h3>太陽と宇宙線の関係</h3>
@@ -203,7 +178,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                    17:25 - 17:35
+                    17:00 - 17:10
                 </div>
                 <div class="col-md-9">
                     <h3>高度と方位による宇宙線到来頻度の違い</h3>
@@ -227,7 +202,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                17:40 - 17:50
+                17:15 - 17:25
                 </div>
                 <div class="col-md-9">
                     <h3>アクリル板を用いたチェレンコフ光検出</h3>
@@ -250,7 +225,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-sm-6 col-md-3 schedule-time">
-                17:55 - 18:05
+                17:30 - 17:40
                 </div>
                 <div class="col-md-9">
                     <h3>CsIシンチレーターを用いた線源測定</h3>
@@ -268,7 +243,7 @@ include($webroot."/header.php");
             </div>
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                18:10 - 18:20
+                17:45 - 17:55
                 </div>
                 <div class="col-md-9">
                     <h3>日本とアルゼンチンでの宇宙線の到来頻度の違い</h3>
@@ -294,7 +269,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                18:25 - 18:35
+                18:00 - 18:10
                 </div>
                 <div class="col-md-9">
                     <h3>TBD（古墳）</h3>
@@ -313,7 +288,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                18:40 - 19:50
+                18:15 - 18:25
                 </div>
                 <div class="col-md-9">
                     <h3>宇宙線中性子を測定して積雪量を測る</h3>
@@ -333,10 +308,31 @@ include($webroot."/header.php");
                     <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>JpGU2021</button>
                 </div>
             </div>
-
+            <div class="schedule row">
+                <div class="col-md-3 schedule-time">
+                    18:30 - 18:40
+                </div>
+                <div class="col-md-9">
+                    <h3>μ粒子の寿命測定
+                    </h3>
+                    <p class="schedule-description">
+                        <span class="material-icons icon">location_on</span><span class="margin">山形県</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">米沢興譲館高等学校</span>
+                        <span class="material-icons icon">supervisor_account</span> <span class="margin">東北大2年 斎藤隆太</span>
+                        <br>
+                    </p>
+                    <p class="schedule-speaker">
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 宮原杏奈</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 高梨美佳</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 髙橋夢玖</span>
+                    </p>
+                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
+                    <button onclick="location.href='<?php echo $urlroot ?>/material/kojyokan-jps-2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>物理学会Jr.セッション研究レポート</button>
+                </div>
+            </div>
             <div class="schedule row">
                 <div class="col-sm-6 col-md-3 schedule-time">
-                    19:50 - 20:00
+                    18:45 - 19:00
                 </div>
                 <div class="col-md-9">
                     <h3>まとめ</h3>
