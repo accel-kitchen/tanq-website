@@ -119,7 +119,7 @@ include($webroot."/header.php");
   
 
     <hr>
-    <!-- PAGE ABOUT -->
+    <!-- EXAMPLE -->
     <section class="page-section" id="research">
         <div class="container section">
             <h1 class="section-title">
