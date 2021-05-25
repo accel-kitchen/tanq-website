@@ -20,7 +20,6 @@ include($webroot."/header.php");
             </div>
         </div>
     </header>
-
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="card">
@@ -34,7 +33,6 @@ include($webroot."/header.php");
         </div>
     </section>
     <hr>
-
     <!-- 宇宙線探究活動　探Qって？ -->
     <section class="page-section" id="intro">
         <div class="container section">
@@ -52,10 +50,12 @@ include($webroot."/header.php");
                         <br><br>
                     </div>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-16by9 col-lg-6 ">
-                    <video class="embed-responsive-item" autoplay muted loop poster="./assets/img/intro-clip.jpg">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                    <video class="" autoplay muted loop poster="./assets/img/intro-clip.jpg">
                         <source src="" data-src="./assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
+                </div>
                 </div>
             </div>
 
@@ -325,7 +325,7 @@ include($webroot."/header.php");
                                     <div class="card-img"><img src="./assets/img/kojyokan-top.jpg" class="card-img-top" alt="...">
                                         <div class="img-center text-center">
                                             <p>ミュオンの寿命測定</p>
-                                            <p class="small">米沢興譲館</p>
+                                            <p class="small">米沢興譲館バリオンズ</p>
                                         </div>
                                     </div>
                                     <div class="card-body">
@@ -391,10 +391,181 @@ include($webroot."/header.php");
                                 </div>
                             </a>
                         </div>
+
+
+                        <!-- 日比谷高校　ほあし -->
+                        <div class="col mb-4">
+                            <a href="link URL">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>研究タイトル</p>
+                                            <p class="small">学校名</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">概要。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2020.10~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- 開智高校　まるた -->
+                        <div class="col mb-4">
+                            <div class="col mb-4">
+                                <a href="https://www.notion.so/kaduo/728b37c62a71498f8b919947b441cafa">
+                                    <div class="card">
+                                        <div class="card-img"><img src="./assets/img/kaichi-top.jpg" class="card-img-top" alt="...">
+                                            <div class="img-center text-center">
+                                                <p>宇宙線による校舎の天井の厚みの推定</p>
+                                                <p class="small">開智高等学校</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text small">宇宙線ミュオンの透過力を利用して構造物の内部を透視する技術をミュオグラフィといいます。この原理を応用して、校舎の天井のコンクリート厚さの推定を行いました。</p>
+                                            <div class="text-right">
+                                                <small class="text-muted ">2020.11~</small>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- 米沢興譲館B　さいとう -->
+                        <div class="col mb-4">
+                            <a href="link URL">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>宇宙線と気象</p>
+                                            <p class="small">米沢興譲館メドブユージム</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">宇宙線到来数と気象の関係を調べようと頑張っています。現在は雲チームと太陽活動チームに分かれて研究を行っています。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2021.1~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- 豊島岡高校B おおさわ-->
+                        <div class="col mb-4">
+                            <a href="link URL">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>研究タイトル</p>
+                                            <p class="small">学校名</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">概要。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2020.10~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- 立教新座高校 いせ-->
+                        <div class="col mb-4">
+                            <a href="link URL">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>研究タイトル</p>
+                                            <p class="small">学校名</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">概要。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2020.10~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <!-- 江戸川取手高校 ささき-->
+                        <div class="col mb-4">
+                            <a href="link URL">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>えどがあ</p>
+                                            <p class="small">学校名</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">概要。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2020.10~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- こうの-->
+                        <div class="col mb-4">
+                            <a href="https://www.touhokuham.co.jp/c/activity/activity03">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/nama-ham.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>Nama-Ham shika katan</p>
+                                            <p class="small">Nama-Ham junior&senior high school</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">干す時間と塩加減による人間の脳内の旨味を感じる海馬での反応を比較しています。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2020.10~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- 仙台二高　さいとう -->
+                        <div class="col mb-4">
+                            <a href="link URL">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/sendainiko-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>ミューオンの寿命測定</p>
+                                            <p class="small">仙台二高</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">オンラインではなくオフライン（T-Biz）で実際にミューオンの寿命を測定しています。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2021.3~</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+         
 
     </section>
 
@@ -443,7 +614,7 @@ include($webroot."/header.php");
                     <div class="container section text-center">
                         <h2 class="section-title">丸田京華</h2>
                         <hr>
-                        <p>東北大学　工学部機械知能3年</p>
+                        <p>東北大学　工学部機械知能・航空工学科3年</p>
                     </div>
                 </div>
 
@@ -573,21 +744,20 @@ include($webroot."/header.php");
                 コンタクト
             </h1>
             <div class="row">
-                <div class="col-lg-3 container-img">
-                    <img class="rounded-circle" src="./assets/img/self-photo.jpg">
-                </div>
-                <div class="col-lg-9">
-                    <ul class="list-group list-group-flush ">
-                        <li class="list-group-item"><span class="material-icons icon">location_city</span> Paul Scherrer Institut</li>
-                        <li class="list-group-item"><span class="material-icons icon">account_circle</span> 田中香津生</li>
-
-                        <li class="list-group-item"><span class="material-icons icon">email</span> tanaka(at)kaduo.jp
-                        </li>
-                        <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://kaduo.jp/"> https://kaduo.jp/</a></li>
-                        <li class="list-group-item">探Qでは宇宙線探究に関心のある中高生を募集しております。進捗報告会や宇宙線探究に関するお問い合わせはメールにてお願いします。</li>
-
-                    </ul>
-                </div>
+                <section class="page-section" id="staff">
+                    <div class="container">
+                        <div class="w-100 pr-5">
+                            <img class="rounded img-fluid img-fluid" src="./assets/img/contact-eyecatch.jpg">
+                        </div>
+                                <ul class="m-5 list-group list-group-flush">
+                                    <li class="list-group-item"><span class="material-icons icon">corporate_fare</span>加速キッチン合同会社</li>
+                                    <li class="list-group-item"><span class="material-icons icon">location_city</span>〒980-0845 宮城県仙台市青葉区荒巻青葉６−６ー４０東北大学連携ビジネスインキュベータ４０１号室</li>
+                                    <li class="list-group-item"><span class="material-icons icon">email</span> admin@accel-kitchen.com
+                                    </li>
+                                    <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://accel-kitchen.com/"> https://accel-kitchen.com/</a></li>
+                                </ul>
+                    </div>
+                </section>
             </div>
         </div>
 
