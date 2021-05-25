@@ -6,12 +6,12 @@ include($webroot."/header.php");
     <header>
         <div class="head-bg head-bg-fluid">
             <div class="masthead">
-                <div class="head-bg-img"  style="background-image: url('../../assets/img/title-online-workshop.jpg')"></div>
+                <div class="head-bg-img"></div>
                 <div class="container h-100">
                     <div class="h-100 align-items-center">
                         <div class="head-title text-center">
-                            <img src="../../assets/img/online-workshop2020-title.png" style="width:25%;    padding-top: 9%;">
-
+                            <img src="../../assets/img/online-workshop2021-title.png" style="width:30%;    padding-top: 9%;">
+<h2 class="text-white m-3">2021.XX.XX (Sun)</h2>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ include($webroot."/header.php");
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="row">
-                <div class="col-sm-12 col-lg-7">
+                <div class="col-lg-6">
                     <div class="pull-left">
                         <h2 class="section-title">
                             宇宙線探究活動　探Qって？
@@ -32,16 +32,19 @@ include($webroot."/header.php");
                     <div class="container">
                         <p>宇宙線の測定・観測と聞くと難しそうですが、探Qでこの宇宙線探究活動を中高生でもできるデバイスを開発・配布を行ってきており、たくさんの中高生が共同研究に加わっています。現在ではおよそ１０校の中高・高専で研究者のサポートを受けて宇宙線検出器の製作・探究活動を行っており、研究会で成果を発表するような高校生もいます。
                         </p>
-                        <a href="https://tanq.kaduo.jp/"><span class="material-icons icon">web</span> 探Qについて</a>
+                        <a href="../../">探Qについて</a>
                         <br><br>
                     </div>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-16by9 col-sm-12 col-lg-5 ">
-                    <video class="embed-responsive-item" autoplay muted loop poster="./../../assets/img/intro-clip.jpg">
-                        <source src="" data-src="./../../assets/img/intro-clip.mp4" type="video/mp4">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                    <video class="w-100" autoplay muted loop poster="../../assets/img/intro-clip.jpg">
+                        <source src="" data-src="../../assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
                 </div>
+                </div>
             </div>
+
         </div>
     </section>
     <hr>
@@ -50,10 +53,10 @@ include($webroot."/header.php");
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="row">
-                <div class="container-img embed-responsive col-sm-12 col-lg-5">
+                <div class="container-img embed-responsive col-sm-12 col-md-5 col-lg-5">
                     <img src="../../assets/img/zoom-introduction.jpg">
                 </div>
-                <div class="col-sm-12 col-lg-7">
+                <div class="col-sm-12 col-md-7 col-lg-7">
                     <div class="pull-left">
                         <h2 class="section-title">
                             オンライン宇宙線探究ワークショップ
@@ -77,7 +80,7 @@ include($webroot."/header.php");
                 オンラインでどんな宇宙線測定ができる？
             </h1>
             <div class="row">
-                <div class="col-sm-12 col-lg-7">
+                <div class="col-sm-12 col-md-7 col-lg-7">
                     <div class="pull-left">
                         <h2 class="section-title">
                             A:ビルの階によって宇宙線の頻度はどう変わる？
@@ -88,14 +91,14 @@ include($webroot."/header.php");
                         </p>
                     </div>
                 </div>
-                <div class="container-img embed-responsive col-sm-12 col-lg-5">
+                <div class="container-img embed-responsive col-sm-12 col-md-5 col-lg-5">
                     <img src="../../assets/img/measurement-building.png">
                 </div>
                 <hr>
-                <div class="container-img embed-responsive col-sm-12 col-lg-4">
+                <div class="container-img embed-responsive col-sm-12 col-md-4 col-lg-4">
                     <img src="../../assets/img/measurement-zenith-angle.png">
                 </div>
-                <div class="col-sm-12 col-lg-8">
+                <div class="col-sm-12 col-md-8 col-lg-8">
                     <div class="pull-left">
                         <h2 class="section-title">
                             B:天頂角度で宇宙線の頻度はどう変わる？
@@ -119,7 +122,12 @@ include($webroot."/header.php");
             <h1 class="section-title">
                 スケジュール
             </h1>
-
+            <div class="text-center">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">日付　2021年XX月XX日13時～16時</li>
+                    <li class="list-group-item">申込締切　　2021年XX月XX日</li>
+                  </ul>
+            </div>
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
                     13:00 - 13:30
@@ -180,7 +188,7 @@ include($webroot."/header.php");
     </section>
 
     <hr>
-    <!--
+
     <section class="page-section" id="application">
         <div class="container section">
             <h1 class="section-title">
@@ -190,66 +198,54 @@ include($webroot."/header.php");
         <div class="container">
             <ul class="application">
                 <li>以下の申し込みフォームから申込をお願いいたします。締切は11月8日24時までになります。</li>
-                <li>申し込みをされた方には確認メールが自動返信されます。自動返信メールを受け取れなかった場合はお手数ですが<a href="#contact"> 探Q係</a>までご連絡ください。
+                <li>申し込みをされた方には確認メールが自動返信されます。自動返信メールを受け取れなかった場合はお手数ですが<a href="mailto:admin@accel-kitchen.com">admin@accel-kitchen.com</a>までご連絡ください。
                 </li>
                 <li>応募人数によって募集期間中に締め切ることがあります。</li>
             </ul>
             <br>
             <h4>申し込みフォーム</h4>
             <hr>
-            <form action="https://script.google.com/macros/s/AKfycbzJCbc4Rvjbc-VBSY_cmU02lrDV2gi8zy2_5uhVweljyDP0Obg/exec" method="post">
+            <form action="https://script.google.com/macros/s/AKfycbxiecqqbNr9kBCgzCDe6_YXOwHt1DA8frdsOtijqrSvQUUI_k7i5JciJUQP3OGRXR7Q3g/exec" method="post">
 
-                <div class="form-group row">
-                    <label for="school" class="col-lg-4 control-label">お名前（漢字）</label>
-                    <div class="input-group col-lg-3 continue">
+                <div class="form-group">
+                    <div class="m-3">
+                    <label for="school" class="control-label">お名前（漢字）</label>
+                    <div class="input-group m-3 continue">
                         <span class="input-group-text">姓</span>
-                        <input type="text" class="form-control" name="name_kanji_family" id="name_kanji_family" placeholder="漢字" x-autocompletetype="surname" required>
-                    </div>
-                    <div class="input-group col-lg-3">
+                        <input type="text" class="form-control" name="name_kanji_family" id="name_kanji_family" placeholder="加速" x-autocompletetype="surname" oninvalid="this.setCustomValidity('名前の入力は必須です。')" required>
                         <span class="input-group-text">名</span>
-                        <input type="text" class="form-control" name="name_kanji_givin" id="name_kanji_given" placeholder="漢字" x-autocompletetype="given-name" required>
+                        <input type="text" class="form-control" name="name_kanji_givin" id="name_kanji_given" placeholder="太郎" x-autocompletetype="given-name" oninvalid="this.setCustomValidity('名前の入力は必須です。')" required>
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="school" class="col-lg-4 control-label">お名前（よみがな）</label>
-                    <div class="input-group col-lg-3 continue">
+                <div class="m-3">
+                    <label for="school" class="control-label">お名前（よみがな）</label>
+                    <div class="input-group m-3 continue">
                         <span class="input-group-text">せい</span>
-                        <input type="text" class="form-control" name="name_yomi_family" id="name_yomi_family" placeholder="よみがな" x-autocompletetype="surname" required>
-                    </div>
-                    <div class="input-group col-lg-3">
+                        <input type="text" class="form-control" name="name_yomi_family" id="name_yomi_family" placeholder="かそく" x-autocompletetype="surname" oninvalid="this.setCustomValidity('名前の入力は必須です。')" required>
+
                         <span class="input-group-text">めい</span>
-                        <input type="text" class="form-control" name="name_yomi_givin" id="name_yomi_given" placeholder="よみがな" x-autocompletetype="given-name" required>
+                        <input type="text" class="form-control" name="name_yomi_givin" id="name_yomi_given" placeholder="たろう" x-autocompletetype="given-name" oninvalid="this.setCustomValidity('名前の入力は必須です。')" required>
                     </div>
+                    </div>
+                    <div class="m-3">
+                    <label for="tel" class="control-label">電話番号</label>
+                        <input type="tel" class="form-control alphabet" name="tel" id="tel" placeholder="022-0000-0000" oninvalid="this.setCustomValidity('電話番号の入力は必須です。')" required>
                 </div>
-                <div class="form-group row">
-                    <label for="tel" class="col-lg-4 control-label">電話番号</label>
-                    <div class="col-lg-6">
-                        <input type="text" class="form-control" name="tel" id="tel" oninvalid="this.setCustomValidity('電話番号を正しく入力してください')" required>
-                        <span class="form-text text-muted small"><span
-                                    class="badge badge-secondary">例</span>022-795-7808</span>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="text" class="col-lg-4 control-label">メールアドレス</label>
-                    <div class="col-lg-6">
-                        <input type="email" class="form-control" name="email" id="email" oninvalid="this.setCustomValidity('メールアドレスの入力は必須です。')" required>
-                        <span class="form-text text-muted small"><span
-                                    class="badge badge-secondary">例</span>tanq@ml.kek.jp</span>
-                    </div>
+                <div class="m-3">
+                    <label for="tel" class="control-label">メールアドレス</label>
+
+                        <input type="email" class="form-control alphabet" name="email" id="email" placeholder="admin@accel-kitchen.com" oninvalid="this.setCustomValidity('メールアドレスの入力は必須です。')" required>
                 </div>
                 <hr>
-                <div class="form-group row">
-                    <label for="school" class="col-lg-4 control-label">学校</label>
-                    <div class="col-lg-6">
-                        <input type="text" class="form-control" name="school" id="" placeholder="学校名" oninvalid="this.setCustomValidity('学校名の入力は必須です。')" required>
-                        <span class="form-text text-muted small"><span
-                                    class="badge badge-secondary">例</span>〇〇高等学校</span>
+                <div class="m-3">
+                    <label for="school" class="control-label">学校</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" name="school" id="" placeholder="学校名" placeholder="加速高校" oninvalid="this.setCustomValidity('学校名の入力は必須です。')" required>
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="grade" class="col-lg-4 control-label">学年</label>
-                    <div class="input-group col-lg-3 continue">
-                        <select class=" custom-select" id="grade" name="grade">
+                <div class="m-3">
+                    <label for="grade" class="control-label">学年</label>
+                        <select class=" form-select" id="grade" name="grade">
                                 <option selected="selected">学年を選択してください。</option>
                                 <option value="中学１年">中学1年</option>
                                 <option value="中学２年">中学2年</option>
@@ -258,15 +254,12 @@ include($webroot."/header.php");
                                 <option value="高校２年">高校2年</option>
                                 <option value="高校３年">高校3年</option>
                             </select>
-                    </div>
+
                 </div>
-
-
-
-                <div class="form-group row">
-                    <label for="gender" class="col-lg-4 control-label">性別</label>
-                    <div class="input-group col-lg-3 continue">
-                        <select class="custom-select" id="gender" name="gender">
+                <div class="m-3">
+                    <label for="gender" class="control-label">性別</label>
+                    <div class="input-group col-sm-3 continue">
+                        <select class="form-select" id="gender" name="gender">
                                 <option selected>性別を選択してください。</option>
                                 <option value="male">男性</option>
                                 <option value="female">女性</option>
@@ -275,11 +268,11 @@ include($webroot."/header.php");
                 </div>
 
                 <hr>
-                <div class="form-group row">
-                    <label for="env" class="col-lg-4 control-label">パソコン環境（原則、WindowsもしくはMacのパソコン環境をご用意ください）
+                <div class="m-3">
+                    <label for="event" class="control-label">パソコン環境（原則、WindowsもしくはMacのパソコン環境をご用意ください）
                     </label>
-                    <div class="input-group col-lg-3 continue">
-                        <select class="custom-select" id="env" name="env">
+                    <div class="input-group col-sm-3 continue">
+                        <select class="form-select" id="event" name="event">
                                 <option selected>パソコン環境を選択してください。</option>
                                 <option value="windows">Windows</option>
                                 <option value="mac">Mac</option>
@@ -287,152 +280,22 @@ include($webroot."/header.php");
                             </select>
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="chance" class="control-label col-lg-4">探Qを知ったきっかけ</label>
-                    <div class="col-lg-6">
+                <div class="m-3">
+                    <label for="chance" class="control-label col-sm-4">探Qを知ったきっかけ</label>
+                    <div class="col-sm-6">
                         <input type="text" class="form-control" name="chance" id="chance">
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="comment" class="control-label col-lg-9">応募するにあたって聞きたいこと、知りたいことがあれば記入してください。</label>
-                    <textarea class="form-control col-lg-9" name="comment" id="comment" rows="3"></textarea>
+                <div class="m-3">
+                    <label for="comment" class="control-label col-sm-9">応募するにあたって聞きたいこと、知りたいことがあれば記入してください。</label>
+                    <textarea class="form-control col-sm-9" name="comment" id="comment" rows="3"></textarea>
                 </div>
 
-                <hr>
+
                 <div class="g-recaptcha" data-sitekey="6LfxhcQUAAAAAEP5PkBSxJ-_TO9axOZynqvgxSC4"></div>
-                <br>
-                <button type="submit" class="btn btn-lg btn-primary recaptcha btn-attention-block-large col-lg-3">送信</button>
+
+                <button type="submit" class=" m-3 btn btn-primary btn-lg recaptcha">送信</button>
             </form>
-        </div>
-    </section>
--->
-
-    <hr>
-
-
-    <!-- CONTACT -->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <h1 class="section-title">
-                コンタクト
-            </h1>
-            <div class="row">
-                <div class="col-md-3 container-img">
-                    <img class="rounded-circle" src="./../../assets/img/self-photo.jpg">
-                </div>
-                <div class="col-md-9">
-                    <ul class="list-group list-group-flush ">
-                        <li class="list-group-item"><span class="material-icons icon">location_city</span> 東北大学サイクロトロン・ラジオアイソトープセンター</li>
-                        <li class="list-group-item"><span class="material-icons icon">account_circle</span> 田中香津生</li>
-
-                        <li class="list-group-item"><span class="material-icons icon">email</span> tanaka(at)kaduo.jp
-                        </li>
-                        <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://kaduo.jp/"> https://kaduo.jp/</a></li>
-                        <li class="list-group-item">探Qでは宇宙線探究に関心のある中高生を募集しております。進捗報告会や宇宙線探究に関するお問い合わせはメールにてお願いします。</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <hr>
-
-    <!-- Staff -->
-    <section class="page-section" id="Staff">
-        <div class="container section">
-            <h1 class="section-title">
-                メンター
-            </h1>
-            <div class="row w-75 mx-auto">
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/kono.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">河野理夏子</h2>
-                        <hr>
-                        <p>東北大学　理学部物理学科2年</p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/maruta.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">丸田京華</h2>
-                        <hr>
-                        <p>東北大学　工学部機械知能2年</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/kita.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">喜多亮介</h2>
-                        <hr>
-                        <p>東北大学　理学部宇宙地球物理学科２年</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/saito.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">齋藤隆太</h2>
-                        <hr>
-                        <p>東北大学　理学部物理学科2年</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/osawa.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">大澤真優乃</h2>
-                        <hr>
-                        <p>早稲田大学　基幹理工学部３年</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/enomoto.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">榎本晴日</h2>
-                        <hr>
-                        <p>東北大学　理学部宇宙地球物理学科４年</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/akiyama.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">秋山翔希</h2>
-                        <hr>
-                        <p>東北大学　理学部宇宙地球物理学科２年</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/nose.jpg">
-                    </div>
-                    <div class="container section text-center">
-                        <h2 class="section-title">能勢千鶴</h2>
-                        <hr>
-                        <p>東北大学　理学部物理系１年</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
