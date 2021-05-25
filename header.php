@@ -19,7 +19,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         <div class="container">
-            <a class="navbar-brand d-inline-block" href="#">宇宙線探究活動　探Q</a>
+            <a class="navbar-brand d-inline-block" href="https://tanq.kaduo.jp/">宇宙線探究活動　探Q</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -37,6 +37,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://tanq.kaduo.jp/#research">事例</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tanq.kaduo.jp/history.php">活動歴</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://tanq.kaduo.jp/#contact">コンタクト</a>
