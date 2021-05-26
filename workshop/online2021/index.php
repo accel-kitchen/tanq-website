@@ -198,7 +198,7 @@ include($webroot."/header.php");
         <div class="container">
             <ul class="application">
                 <li>以下の申し込みフォームから申込をお願いいたします。締切は11月8日24時までになります。</li>
-                <li>申し込みをされた方には確認メールが自動返信されます。自動返信メールを受け取れなかった場合はお手数ですが<a href="mailto:admin@accel-kitchen.com">admin@accel-kitchen.com</a>までご連絡ください。
+                <li>申し込みをされた方には確認メールが自動返信されます。自動返信メールを受け取れなかった場合はお手数ですが<a href="mailto:info@accel-kitchen.com">info@accel-kitchen.com</a>までご連絡ください。
                 </li>
                 <li>応募人数によって募集期間中に締め切ることがあります。</li>
             </ul>
@@ -234,7 +234,7 @@ include($webroot."/header.php");
                 <div class="m-3">
                     <label for="tel" class="control-label">メールアドレス</label>
 
-                        <input type="email" class="form-control alphabet" name="email" id="email" placeholder="admin@accel-kitchen.com" oninvalid="this.setCustomValidity('メールアドレスの入力は必須です。')" required>
+                        <input type="email" class="form-control alphabet" name="email" id="email" placeholder="info@accel-kitchen.com" oninvalid="this.setCustomValidity('メールアドレスの入力は必須です。')" required>
                 </div>
                 <hr>
                 <div class="m-3">
