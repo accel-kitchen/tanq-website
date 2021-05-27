@@ -23,7 +23,7 @@
 
 body {
     font-family: "Noto Sans JP", sans-serif !important;
-    font-size: 14pt;
+    font-size: 12pt;
     line-height: 1.33;
     background: white;
     color: var(--text-color);
@@ -42,7 +42,7 @@ p {
 @media screen and (max-width: 992px) {
     body {
         line-height: 1.8;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     h1,
     h2 {
@@ -84,7 +84,7 @@ nav {
 
 @media screen and (max-width: 992px) {
     .navbar-brand {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 

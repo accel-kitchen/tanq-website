@@ -357,25 +357,25 @@ include($webroot."/header.php");
                 コンタクト
             </h1>
             <div class="row">
-                <div class="col-md-3 container-img">
-                    <img class="rounded-circle" src="https://tanq.kaduo.jp/assets/img/self-photo.jpg">
-                </div>
-                <div class="col-md-9">
-                    <ul class="list-group list-group-flush ">
-                        <li class="list-group-item"><span class="material-icons icon">location_city</span>Paul Scherrer Institut</li>
-                        <li class="list-group-item"><span class="material-icons icon">account_circle</span> 田中香津生</li>
-
-                        <li class="list-group-item"><span class="material-icons icon">email</span> tanaka(at)kaduo.jp
-                        </li>
-                        <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://kaduo.jp/"> https://kaduo.jp/</a></li>
-                        <li class="list-group-item">探Qでは宇宙線探究に関心のある中高生を募集しております。進捗報告会や宇宙線探究に関するお問い合わせはメールにてお願いします。</li>
-
-                    </ul>
-                </div>
+                <section class="page-section" id="staff">
+                    <div class="container">
+                        <div class="w-100 pr-5">
+                            <img class="rounded img-fluid img-fluid" src="../../assets/img/contact-eyecatch.jpg">
+                        </div>
+                                <ul class="m-5 list-group list-group-flush">
+                                    <li class="list-group-item"><span class="material-icons icon">corporate_fare</span>加速キッチン合同会社</li>
+                                    <li class="list-group-item"><span class="material-icons icon">location_city</span>〒980-0845 宮城県仙台市青葉区荒巻青葉６−６ー４０東北大学連携ビジネスインキュベータ４０１号室</li>
+                                    <li class="list-group-item"><span class="material-icons icon">email</span> info@accel-kitchen.com
+                                    </li>
+                                    <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://accel-kitchen.com/"> https://accel-kitchen.com/</a></li>
+                                </ul>
+                    </div>
+                </section>
             </div>
         </div>
 
-    </section>
+      <hr>
+</section>
 
 
 

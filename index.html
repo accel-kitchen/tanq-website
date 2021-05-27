@@ -1,25 +1,18 @@
 <html lang="ja">
-<head>
 
-    <meta charset="utf-8"> 
+<head>
+    <meta charset="utf-8">
+
     <title>宇宙線探究活動　探Q</title>
 
-    <!-- Favicons -->
-    <!--    <link rel="shortcut icon" href="assets/ico/fr-fav.ico"> -->
-
-    <!-- CSS Global -->
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="assets/css/main.css" rel="stylesheet">
 
     <!-- JS Global -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js">
-    </script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <!--icon-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -28,37 +21,44 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">宇宙線探究活動　探Q</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand d-inline-block" href="#">宇宙線探究活動　探Q</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#intro">初めに</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#feature">特徴</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#research">探究事例</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">コンタクト</a>
+                        <a class="nav-link" href="https://tanq.kaduo.jp/#intro">概要</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle" href="#history" data-toggle="dropdown">過去のイベント</a>
-                        <ul class="dropdown-menu">
+                        <a class="nav-link dropdown-toggle" href="https://tanq.kaduo.jp/#feature" data-bs-toggle="dropdown" id="featureDropdown">特徴</a>
+                        <ul class="dropdown-menu"  aria-labelledby="featureDropdown">
+                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/detector.php"> 宇宙線・検出器について</a></li>
+                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/communication.php">全国の研究者や中高生との交流 </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tanq.kaduo.jp/#research">事例</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://tanq.kaduo.jp/#contact">コンタクト</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="https://tanq.kaduo.jp/#history" data-toggle="dropdown" id="eventDropdown">イベント</a>
+                        <ul class="dropdown-menu"  aria-labelledby="eventDropdown">
                             <li><a class="dropdown-item" href="https://www2.kek.jp/ipns/ja/post/2019/11/20191107/"> 宇宙線探究ワークショップ　長野県飯田市（2019.10.5）</a></li>
                             <li><a class="dropdown-item" href="https://www2.kek.jp/ipns/ja/post/2020/02/20200203/"> 宇宙線探究ワークショップ　仙台・東京（2020.1.12-13） </a></li>
-                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/workshop/nd-map2020/"> 宇宙線探究活動進捗報告会（2020.6.28） </a></li>
+                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/progress-report/2020-1/"> 宇宙線探究活動進捗報告会（2020.6.28） </a></li>
                             <li><a class="dropdown-item" href="https://tanq.kaduo.jp/workshop/online2020/"> オンライン宇宙線探究ワークショップ（2020.11.15） </a></li>
+                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/progress-report/2020-2/"> 宇宙線探究活動進捗報告会（2020.12.22） </a></li>
+                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/progress-report/2021-1/"> 宇宙線探究活動進捗報告会（2021.6.12） </a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header>
@@ -76,27 +76,24 @@
             </div>
         </div>
     </header>
-
-    <!-- 宇宙線探究活動　探Qって？ -->
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="card">
                 <div class=" mx-auto">
-                    <img src="./assets/img/tanq-online-workshop2020-banner.jpg" class="img-fluid card-img rounded">
+                    <img src="./assets/img/tanq-online-progressreport2021-banner.jpg" class="img-fluid card-img rounded">
                 </div>
                 <div class="card-img-overlay d-flex justify-content-center" style="top:40%">
-                    <button class="btn btn-primary btn-lg d-blcok mx-auto align-self-center " onclick="location.href='./online/workshop2020/'" role="button">もっと詳しく知る</button>
+                    <button class="btn btn-primary btn-lg d-blcok mx-auto align-self-center " onclick="location.href='./progress-report/2020-2/'" role="button">もっと詳しく知る</button>
                 </div>
             </div>
         </div>
     </section>
     <hr>
-
     <!-- 宇宙線探究活動　探Qって？ -->
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-lg-6">
                     <div class="pull-left">
                         <h2 class="section-title">
                             宇宙線探究活動　探Qって？
@@ -105,21 +102,23 @@
                     <div class="container">
                         <p>宇宙線の測定・観測と聞くと難しそうですが、探Qでこの宇宙線探究活動を中高生でもできるデバイスを開発・配布を行ってきており、たくさんの中高生が共同研究に加わっています。現在ではおよそ１０校の中高・高専で研究者のサポートを受けて宇宙線検出器の製作・探究活動を行っており、研究会で成果を発表するような高校生もいます。
                         </p>
-                        <a href="https://tanq.kaduo.jp/tanq-pamflet-2020-A4-lite.pdf"><span class="material-icons icon">picture_as_pdf</span> 探Q　パンフレット</a>
+                        <a href="https://tanq.kaduo.jp/material/tanq-pamflet2021-all-lite.pdf"><span class="material-icons icon">picture_as_pdf</span> 探Q　パンフレット</a>
                         <br><br>
                     </div>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-16by9 col-sm-12 col-md-6 col-lg-6 ">
-                    <video class="embed-responsive-item" autoplay muted loop poster="./assets/img/intro-clip.jpg">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                    <video class="w-100" autoplay muted loop poster="./assets/img/intro-clip.jpg">
                         <source src="" data-src="./assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
+                </div>
                 </div>
             </div>
 
         </div>
     </section>
-
     <hr>
+
 
     <!-- 特徴 -->
     <section class="page-section" id="feature">
@@ -129,7 +128,7 @@
             </h1>
             <div class="row">
 
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="m-2">
                         <div class="container-img">
                             <img class="rounded" src="./assets/img/tanq-event-image1.jpg">
@@ -142,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="m-2">
                         <div class="container-img">
                             <img class="rounded" src="./assets/img/tanq-event-image2.jpg">
@@ -156,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="m-2">
                         <div class="container-img">
                             <img class="rounded" src="./assets/img/tanq-event-image3.jpg">
@@ -173,7 +172,7 @@
     </section>
 
 
-
+  
 
     <hr>
     <!-- EXAMPLE -->
@@ -382,7 +381,7 @@
                                     <div class="card-img"><img src="./assets/img/kojyokan-top.jpg" class="card-img-top" alt="...">
                                         <div class="img-center text-center">
                                             <p>ミュオンの寿命測定</p>
-                                            <p class="small">米沢興譲館</p>
+                                            <p class="small">米沢興譲館バリオンズ</p>
                                         </div>
                                     </div>
                                     <div class="card-body">
@@ -448,20 +447,19 @@
                                 </div>
                             </a>
                         </div>
-
-                        <!-- 日比谷高校　ほあし -->
                         <div class="col mb-4">
-                            <a href="link URL">
+                            <a href="https://www.notion.so/kaduo/B-53b0d3e5795d4e6ebcc03383cd9f8d98">
                                 <div class="card">
-                                    <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
+                                    <div class="card-img"><img src="./assets/img/IMG_sasakitest.JPG" class="card-img-top" alt="...">
                                         <div class="img-center text-center">
-                                            <p>研究タイトル</p>
-                                            <p class="small">学校名</p>
+                                            <p>宇宙線研究</p>
+                                            <p class="small">江戸川学園取手B</p>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        <p class="card-text small">概要。</p>
+                                        <p class="card-text small">新たな研究がスタートしました。<div class=""></div></p>
                                         <div class="text-right">
+<<<<<<< HEAD
                                             <small class="text-muted ">2020.10~</small>
                                         </div>
                                     </div>
@@ -588,6 +586,9 @@
                                         <p class="card-text small">概要。</p>
                                         <div class="text-right">
                                             <small class="text-muted ">2020.10~</small>
+=======
+                                            <small class="text-muted ">2021.03~</small>
+>>>>>>> 12b5a790fc1878a1090ec7b96e55e37190c79118
                                         </div>
                                     </div>
                                 </div>
@@ -599,6 +600,8 @@
             </div>
         </div>
 
+         
+
     </section>
 
     <hr>
@@ -609,8 +612,8 @@
                 参加校
             </h1>
             <div class="row">
-                <div class="container-img w-75 col-md-9 mx-auto">
-                    <img src="./assets/img/participants-map.png">
+                <div class="container-img w-75 col-lg-9 mx-auto">
+                    <img src="./assets/img/participants-map2.png">
                 </div>
             </div>
         </div>
@@ -625,91 +628,141 @@
             <h1 class="section-title">
                 メンター
             </h1>
-            <div class="row">
+            <div class="row w-75 mx-auto">
 
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="../../assets/img/kono.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">河野理夏子</h2>
                         <hr>
-                        <p>東北大学　理学部物理系2年</p>
+                        <p>東北大学　理学部物理学科3年</p>
                     </div>
                 </div>
 
 
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="../../assets/img/maruta.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">丸田京華</h2>
                         <hr>
-                        <p>東北大学　工学部機械知能2年</p>
+                        <p>東北大学　工学部機械知能・航空工学科3年</p>
                     </div>
                 </div>
 
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="../../assets/img/kita.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">喜多亮介</h2>
                         <hr>
-                        <p>東北大学　理学部物理系2年</p>
+                        <p>東北大学　理学部宇宙地球物理学科3年</p>
                     </div>
                 </div>
 
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="../../assets/img/saito.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">齋藤隆太</h2>
                         <hr>
-                        <p>東北大学　理学部物理系2年</p>
+                        <p>東北大学　理学部物理学科3年</p>
                     </div>
                 </div>
 
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/human-icon.png">
+                        <img class="rounded-circle" src="../../assets/img/osawa.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">大澤真優乃</h2>
                         <hr>
-                        <p>早稲田大学　基幹理工学部</p>
+                        <p>早稲田大学　基幹理工学部4年</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/human-icon.png">
+                        <img class="rounded-circle" src="../../assets/img/enomoto.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">榎本晴日</h2>
                         <hr>
-                        <p>東北大学　理学部地球物理学専攻４年</p>
+                        <p>東京工業大学　理学院地球惑星科学系修士1年</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/human-icon.png">
+                        <img class="rounded-circle" src="../../assets/img/akiyama.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">秋山翔希</h2>
                         <hr>
-                        <p>東北大学　理学部物理系２年</p>
+                        <p>東北大学　理学部宇宙地球物理学科3年</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/human-icon.png">
+                        <img class="rounded-circle" src="../../assets/img/nose.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">能勢千鶴</h2>
                         <hr>
-                        <p>東北大学　理学部物理系１年</p>
+                        <p>東北大学　理学部物理系2年</p>
+                    </div>
+</div>
+                    <div class="col-lg-3 col-sm-6">
+                    <div class="container-img">
+                        <img class="rounded-circle" src="../../assets/img/hoashi.jpg">
+                    </div>
+                    <div class="container section text-center">
+                        <h2 class="section-title">帆足莉子</h2>
+                        <hr>
+                        <p>東北大学　工学研究科量子エネルギー工学専攻修士1年</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="container-img">
+                        <img class="rounded-circle" src="../../assets/img/minakawa.jpg">
+                    </div>
+                    <div class="container section text-center">
+                        <h2 class="section-title">皆川幸穂</h2>
+                        <hr>
+                        <p>東北大学　理学部研究科物理学専攻修士1年</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="container-img">
+                        <img class="rounded-circle" src="../../assets/img/nakagawa.jpg">
+                    </div>
+                    <div class="container section text-center">
+                        <h2 class="section-title">中川鈴彩</h2>
+                        <hr>
+                        <p>東北大学　理学部化学科1年</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="container-img">
+                        <img class="rounded-circle" src="../../assets/img/sasaki.jpg">
+                    </div>
+                    <div class="container section text-center">
+                        <h2 class="section-title">佐々木真奈香</h2>
+                        <hr>
+                        <p>東北大学　医学部保健学科放射線技術科学専攻1年</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="container-img">
+                        <img class="rounded-circle" src="../../assets/img/endo.jpg">
+                    </div>
+                    <div class="container section text-center">
+                        <h2 class="section-title">遠藤心汰朗</h2>
+                        <hr>
+                        <p>東北大学　理学部物理学科1年</p>
                     </div>
                 </div>
             </div>
@@ -726,234 +779,26 @@
                 コンタクト
             </h1>
             <div class="row">
-                <div class="col-md-3 container-img">
-                    <img class="rounded-circle" src="./assets/img/self-photo.jpg">
-                </div>
-                <div class="col-md-9">
-                    <ul class="list-group list-group-flush ">
-                        <li class="list-group-item"><span class="material-icons icon">location_city</span> 東北大学サイクロトロン・ラジオアイソトープセンター</li>
-                        <li class="list-group-item"><span class="material-icons icon">account_circle</span> 田中香津生</li>
-
-                        <li class="list-group-item"><span class="material-icons icon">email</span> tanaka(at)kaduo.jp
-                        </li>
-                        <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://kaduo.jp/"> https://kaduo.jp/</a></li>
-                        <li class="list-group-item">探Qでは宇宙線探究に関心のある中高生を募集しております。進捗報告会や宇宙線探究に関するお問い合わせはメールにてお願いします。</li>
-
-                    </ul>
-                </div>
+                <section class="page-section" id="staff">
+                    <div class="container">
+                        <div class="w-100 pr-5">
+                            <img class="rounded img-fluid img-fluid" src="./assets/img/contact-eyecatch.jpg">
+                        </div>
+                                <ul class="m-5 list-group list-group-flush">
+                                    <li class="list-group-item"><span class="material-icons icon">corporate_fare</span>加速キッチン合同会社</li>
+                                    <li class="list-group-item"><span class="material-icons icon">location_city</span>〒980-0845 宮城県仙台市青葉区荒巻青葉６−６ー４０東北大学連携ビジネスインキュベータ４０１号室</li>
+                                    <li class="list-group-item"><span class="material-icons icon">email</span> info@accel-kitchen.com
+                                    </li>
+                                    <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://accel-kitchen.com/"> https://accel-kitchen.com/</a></li>
+                                </ul>
+                    </div>
+                </section>
             </div>
         </div>
 
-        </#research <hr>
+      <hr>
+</section>
 
-        <!-- HISTORY -->
-        <section class="page-section " id="history">
-            <div class="container">
-                <h1 class="section-title ">
-                    過去のイベント
-                </h1>
-                <ul class="timeline">
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2019年10月5日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span> 科学実験イベント　探Q</span>
-                            </div>
-                            <div class="timeline-content">
-                                <div class="container-img">
-                                    <img class="rounded" src="./assets/img/iida-20191005.jpg">
-                                </div>
-                                <p>
-                                    長野県飯田市で総合研究大学院大学主催、公益財団法人　南信州・飯田産業センター、飯田市共催のもと開催ました。KEK素粒子原子核研究所の研究員等によって開発された簡易版宇宙線検出器の初期バージョンを用いて、実際に宇宙線の到来角度分布の測定にチャレンジしました。
-                                </p>
-
-                                <a href="https://www2.kek.jp/ipns/ja/post/2019/11/20191107/">素核研ニュース　科学実験イベント　探Qを長野県飯田市で開催</a>
-
-                            </div>
-                            <div class="timeline-likes">
-                                <div class="stats">
-                                    <span class="stats-text">長野県</span>
-                                    <span class="stats-text">飯田市</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年1月12日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span> 宇宙線探索ワークショップ探Q 仙台</span>
-                            </div>
-                            <div class="timeline-content">
-                                <div class="container-img">
-                                    <img class="rounded" src="./assets/img/nd-map-20200112.jpg">
-                                </div>
-                                <p>
-                                    東北大学サイエンスキャンパスに中高生が集まり、宇宙線検出器「Cosmic Watch」を使って、宇宙線の到来角度分布測定や建物の階数によって宇宙線の到来頻度がどう変わるかについてグループごとに挑戦しました。このイベントから宇宙線探究活動をはじめたグループ（秋田高校、豊島岡女子学園、東桜学館、早稲田大学本庄高等学院）もあります。
-                                </p>
-                                <a href="https://www2.kek.jp/ipns/ja/post/2020/02/20200203/">素核研ニュース　科学実験イベント　宇宙線探索ワークショップ探Q 仙台と東京で開催</a>
-
-
-                            </div>
-                            <div class="timeline-likes">
-                                <div class="stats">
-                                    <span class="stats-text">宮城県</span>
-                                    <span class="stats-text">東北大学</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年1月13日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span> 宇宙線探索ワークショップ探Q 東京</span>
-                            </div>
-                            <div class="timeline-content">
-                                <div class="container-img">
-                                    <img class="rounded" src="./assets/img/nd-map-20200113.jpg">
-                                </div>
-                                <p>
-                                    広尾学園に全国から中高生が集まり、宇宙線検出器「Cosmic Watch」を使って、宇宙線の到来角度分布測定や建物の階数によって宇宙線の到来頻度がどう変わるかについてグループごとに挑戦しました。このイベントから宇宙線探究活動をはじめたグループ（江戸川取手）もあります。
-                                </p>
-
-                                <a href="https://www2.kek.jp/ipns/ja/post/2020/02/20200203/">素核研ニュース　科学実験イベント　宇宙線探索ワークショップ探Q 仙台と東京で開催</a>
-
-                            </div>
-                            <div class="timeline-likes">
-                                <div class="stats">
-                                    <span class="stats-text">東京都</span>
-                                    <span class="stats-text">広尾学園</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年5月1日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">radio</span> NHKラジオ　ゴジだっちゃ！で探Qの活動紹介</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    江戸川取手学園高校2年の高槌満帆さんがNHKラジオに出演し、探Qでの研究活動について紹介しました。
-                                </p>
-
-                                <a href="https://www.nhk.or.jp/daccha-blog/2020/05/01/">NHKKラジオ第一　ゴジだっちゃ！　令和２年５月１日（金）</a>
-
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年6月28日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>宇宙線探究活動進捗報告会</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    各学校の宇宙線探究活動の進捗を発表するWebinarを開催しました。
-                                </p>
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jpn2mGVw0wQ"></iframe>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年7月7日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">tv</span> NHKテレビ　てれまさむねで探Qの活動紹介</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    コロナ関連でのオンラインを活用した探究活動として、主に豊島岡女子学園の活動を中心に紹介されました。
-                                </p>
-
-
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-
-                </ul>
-            </div>
-        </section>
         <!-- FOOTER -->
         <footer class="footer shadow ">
             <div class="footer-meta ">

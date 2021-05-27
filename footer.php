@@ -4,7 +4,7 @@
                 <div class="container text-center ">
 
                     <span class="copyright " data-animation="fadeInUp " data-animation-delay="100 ">&copy;
-                    探Q &#8212; 2019-2020 All Rights Reserved.</span>
+                    探Q &#8212; 2019-2021 All Rights Reserved.</span>
                 </div>
             </div>
         </footer>

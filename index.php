@@ -20,12 +20,11 @@ include($webroot."/header.php");
             </div>
         </div>
     </header>
-    <!-- 
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="card">
                 <div class=" mx-auto">
-                    <img src="./assets/img/tanq-online-progressreport2020-banner.jpg" class="img-fluid card-img rounded">
+                    <img src="./assets/img/tanq-online-progressreport2021-banner.jpg" class="img-fluid card-img rounded">
                 </div>
                 <div class="card-img-overlay d-flex justify-content-center" style="top:40%">
                     <button class="btn btn-primary btn-lg d-blcok mx-auto align-self-center " onclick="location.href='./progress-report/2020-2/'" role="button">もっと詳しく知る</button>
@@ -34,7 +33,6 @@ include($webroot."/header.php");
         </div>
     </section>
     <hr>
-    -->
     <!-- 宇宙線探究活動　探Qって？ -->
     <section class="page-section" id="intro">
         <div class="container section">
@@ -48,14 +46,16 @@ include($webroot."/header.php");
                     <div class="container">
                         <p>宇宙線の測定・観測と聞くと難しそうですが、探Qでこの宇宙線探究活動を中高生でもできるデバイスを開発・配布を行ってきており、たくさんの中高生が共同研究に加わっています。現在ではおよそ１０校の中高・高専で研究者のサポートを受けて宇宙線検出器の製作・探究活動を行っており、研究会で成果を発表するような高校生もいます。
                         </p>
-                        <a href="https://tanq.kaduo.jp/tanq-pamflet-2020-A4-lite.pdf"><span class="material-icons icon">picture_as_pdf</span> 探Q　パンフレット</a>
+                        <a href="https://tanq.kaduo.jp/material/tanq-pamflet2021-all-lite.pdf"><span class="material-icons icon">picture_as_pdf</span> 探Q　パンフレット</a>
                         <br><br>
                     </div>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-16by9 col-lg-6 ">
-                    <video class="embed-responsive-item" autoplay muted loop poster="./assets/img/intro-clip.jpg">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                    <video class="w-100" autoplay muted loop poster="./assets/img/intro-clip.jpg">
                         <source src="" data-src="./assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
+                </div>
                 </div>
             </div>
 
@@ -325,7 +325,7 @@ include($webroot."/header.php");
                                     <div class="card-img"><img src="./assets/img/kojyokan-top.jpg" class="card-img-top" alt="...">
                                         <div class="img-center text-center">
                                             <p>ミュオンの寿命測定</p>
-                                            <p class="small">米沢興譲館</p>
+                                            <p class="small">米沢興譲館バリオンズ</p>
                                         </div>
                                     </div>
                                     <div class="card-body">
@@ -391,10 +391,13 @@ include($webroot."/header.php");
                                 </div>
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
+
+         
 
     </section>
 
@@ -443,7 +446,7 @@ include($webroot."/header.php");
                     <div class="container section text-center">
                         <h2 class="section-title">丸田京華</h2>
                         <hr>
-                        <p>東北大学　工学部機械知能3年</p>
+                        <p>東北大学　工学部機械知能・航空工学科3年</p>
                     </div>
                 </div>
 
@@ -573,365 +576,27 @@ include($webroot."/header.php");
                 コンタクト
             </h1>
             <div class="row">
-                <div class="col-lg-3 container-img">
-                    <img class="rounded-circle" src="./assets/img/self-photo.jpg">
-                </div>
-                <div class="col-lg-9">
-                    <ul class="list-group list-group-flush ">
-                        <li class="list-group-item"><span class="material-icons icon">location_city</span> Paul Scherrer Institut</li>
-                        <li class="list-group-item"><span class="material-icons icon">account_circle</span> 田中香津生</li>
-
-                        <li class="list-group-item"><span class="material-icons icon">email</span> tanaka(at)kaduo.jp
-                        </li>
-                        <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://kaduo.jp/"> https://kaduo.jp/</a></li>
-                        <li class="list-group-item">探Qでは宇宙線探究に関心のある中高生を募集しております。進捗報告会や宇宙線探究に関するお問い合わせはメールにてお願いします。</li>
-
-                    </ul>
-                </div>
+                <section class="page-section" id="staff">
+                    <div class="container">
+                        <div class="w-100 pr-5">
+                            <img class="rounded img-fluid img-fluid" src="./assets/img/contact-eyecatch.jpg">
+                        </div>
+                                <ul class="m-5 list-group list-group-flush">
+                                    <li class="list-group-item"><span class="material-icons icon">corporate_fare</span>加速キッチン合同会社</li>
+                                    <li class="list-group-item"><span class="material-icons icon">location_city</span>〒980-0845 宮城県仙台市青葉区荒巻青葉６−６ー４０東北大学連携ビジネスインキュベータ４０１号室</li>
+                                    <li class="list-group-item"><span class="material-icons icon">email</span> info@accel-kitchen.com
+                                    </li>
+                                    <li class="list-group-item"><span class="material-icons icon">language</span> <a href="https://accel-kitchen.com/"> https://accel-kitchen.com/</a></li>
+                                </ul>
+                    </div>
+                </section>
             </div>
         </div>
 
       <hr>
 </section>
 
-        <!-- HISTORY -->
-        <section class="page-section " id="history">
-            <div class="container">
-                <h1 class="section-title ">
-                    過去のイベント
-                </h1>
-                <ul class="timeline">
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2019年10月5日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span> 科学実験イベント　探Q</span>
-                            </div>
-                            <div class="timeline-content">
-                                <div class="container-img">
-                                    <img class="rounded" src="./assets/img/iida-20191005.jpg">
-                                </div>
-                                <p>
-                                    長野県飯田市で総合研究大学院大学主催、公益財団法人　南信州・飯田産業センター、飯田市共催のもと開催ました。KEK素粒子原子核研究所の研究員等によって開発された簡易版宇宙線検出器の初期バージョンを用いて、実際に宇宙線の到来角度分布の測定にチャレンジしました。
-                                </p>
-
-                                <a href="https://www2.kek.jp/ipns/ja/post/2019/11/20191107/">素核研ニュース　科学実験イベント　探Qを長野県飯田市で開催</a>
-
-                            </div>
-                            <div class="timeline-likes">
-                                <div class="stats">
-                                    <span class="stats-text">長野県</span>
-                                    <span class="stats-text">飯田市</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年1月12日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span> 宇宙線探索ワークショップ探Q 仙台</span>
-                            </div>
-                            <div class="timeline-content">
-                                <div class="container-img">
-                                    <img class="rounded" src="./assets/img/nd-map-20200112.jpg">
-                                </div>
-                                <p>
-                                    東北大学サイエンスキャンパスに中高生が集まり、宇宙線検出器「Cosmic Watch」を使って、宇宙線の到来角度分布測定や建物の階数によって宇宙線の到来頻度がどう変わるかについてグループごとに挑戦しました。このイベントから宇宙線探究活動をはじめたグループ（秋田高校、豊島岡女子学園、東桜学館、早稲田大学本庄高等学院）もあります。
-                                </p>
-                                <a href="https://www2.kek.jp/ipns/ja/post/2020/02/20200203/">素核研ニュース　科学実験イベント　宇宙線探索ワークショップ探Q 仙台と東京で開催</a>
-
-
-                            </div>
-                            <div class="timeline-likes">
-                                <div class="stats">
-                                    <span class="stats-text">宮城県</span>
-                                    <span class="stats-text">東北大学</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年1月13日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span> 宇宙線探索ワークショップ探Q 東京</span>
-                            </div>
-                            <div class="timeline-content">
-                                <div class="container-img">
-                                    <img class="rounded" src="./assets/img/nd-map-20200113.jpg">
-                                </div>
-                                <p>
-                                    広尾学園に全国から中高生が集まり、宇宙線検出器「Cosmic Watch」を使って、宇宙線の到来角度分布測定や建物の階数によって宇宙線の到来頻度がどう変わるかについてグループごとに挑戦しました。このイベントから宇宙線探究活動をはじめたグループ（江戸川取手）もあります。
-                                </p>
-
-                                <a href="https://www2.kek.jp/ipns/ja/post/2020/02/20200203/">素核研ニュース　科学実験イベント　宇宙線探索ワークショップ探Q 仙台と東京で開催</a>
-
-                            </div>
-                            <div class="timeline-likes">
-                                <div class="stats">
-                                    <span class="stats-text">東京都</span>
-                                    <span class="stats-text">広尾学園</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年5月1日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">radio</span> NHKラジオ　ゴジだっちゃ！で探Qの活動紹介</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    江戸川取手学園高校2年の高槌満帆さんがNHKラジオに出演し、探Qでの研究活動について紹介しました。
-                                </p>
-
-                                <a href="https://www.nhk.or.jp/daccha-blog/2020/05/01/">NHKKラジオ第一　ゴジだっちゃ！　令和２年５月１日（金）</a>
-
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年6月28日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>宇宙線探究活動進捗報告会</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    各学校の宇宙線探究活動の進捗を発表するWebinarを開催しました。
-                                </p>
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jpn2mGVw0wQ"></iframe>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年7月7日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">tv</span> NHKテレビ　てれまさむねで探Qの活動紹介</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    コロナ関連でのオンラインを活用した探究活動として、主に豊島岡女子学園の活動を中心に紹介されました。
-                                </p>
-
-
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年9月28日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>宇宙線検出器製作会</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    東北大学の学生を対象に宇宙線検出器製作体験を行いました。４名の１年生が参加して、それぞれ検出器の製作・テスト測定に取り組みました。
-                                </p>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年11月15日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>オンライン宇宙線観測体験会</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    オンラインで宇宙線検出器のデータをリモートで解析しながら楽しめる宇宙線観測体験会を行いました。２０名の中学生～高校生が５つのグループに分かれて、宇宙線探究を普段行っている中高生と一緒に天頂角分布測定に挑みました。
-                                </p>
-                                <a href="https://tanq.kaduo.jp/workshop/online2020/">オンライン宇宙線観測体験会</a>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年12月22日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>宇宙線探究活動進捗報告会</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    各学校の宇宙線探究活動の進捗を発表するWebinarを開催しました。
-                                </p>
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0Ixdd3UQ0OE"></iframe>
-                                </div>
-                                                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2021年1月12日,19日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>立教新座高等学校　宇宙線探究授業</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    立教新座高校の物理の授業（５０分×２コマ×２週）で６名の高校３年生を対象とした宇宙線授業を行いました。事前に送付された宇宙線検出器を使って観測に挑戦して、統計的な解析を行いながら角度依存性等の有意性について活発に議論を行っていました。
-                                </p>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-                    <li>
-                        <!-- begin timeline-time -->
-                        <div class="timeline-time">
-                            <span class="time">2020年1月16日</span>
-                        </div>
-                        <!-- end timeline-time -->
-                        <!-- begin timeline-icon -->
-                        <div class="timeline-icon">
-                            <a href="javascript:;">&nbsp;</a>
-                        </div>
-                        <!-- end timeline-icon -->
-                        <!-- begin timeline-body -->
-                        <div class="timeline-body">
-                            <div class="timeline-header">
-                                <span class="username"><span class="material-icons icon">event_note</span>豊島岡女子学園　宇宙線探究ワークショップ</span>
-                            </div>
-                            <div class="timeline-content">
-                                <p>
-                                    豊島岡女子学園で宇宙線観測に関するイベントを行いました。６０名程度が参加して実際に検出器を使った観測を行うのがソーシャルディスタンスの観点で難しかったため、探求を実際に行っている中学生から研究紹介及びどうやって解析して得られた結果なのかの実演を行ってもらいました。
-                                    また、同様の解析を試すことができるウェブページをお土産としてお送りして、終了後に参加者には自宅で体験してもらえるようにしました。
-                                </p>
-                            </div>
-                        </div>
-                        <!-- end timeline-body -->
-                    </li>
-
-
-                </ul>
-            </div>
-        </section>
+ 
 
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
