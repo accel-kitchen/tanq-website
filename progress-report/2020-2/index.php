@@ -50,36 +50,35 @@ include($webroot."/header.php");
 
     <section class="page-section" id="digest" style="margin-bottom: -2%">
         <div class="container">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Y6lb9V3JPk?start=586"></iframe>
+            <div class="ratio ratio-16x9">
+                <iframe class="w-100" src="https://www.youtube.com/embed/-Y6lb9V3JPk?start=586"></iframe>
             </div>
         </div>
     </section>
 
-    <!-- 宇宙線探索ワークショップ　探Qって？ -->
+    <!-- 宇宙線探究活動　探Qって？ -->
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="row">
-
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-lg-6">
                     <div class="pull-left">
                         <h2 class="section-title">
-                            宇宙線探索ワークショップ　探Qって？
+                            宇宙線探究活動　探Qって？
                         </h2>
                     </div>
                     <div class="container">
                         <p>宇宙線の測定・観測と聞くと難しそうですが、探Qでこの宇宙線探究活動を中高生でもできるデバイスを開発・配布を行ってきており、たくさんの中高生が共同研究に加わっています。現在ではおよそ１０校の中高・高専で研究者のサポートを受けて宇宙線検出器の製作・探究活動を行っており、研究会で成果を発表するような高校生もいます。
                         </p>
-                        <a href="https://tanq.kaduo.jp/"><span class="material-icons">
-                            forward
-                            </span> 詳しくはこちら</a>
+                        <a href="../../">探Qについて</a>
                         <br><br>
                     </div>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-16by9 col-sm-12 col-md-6 col-lg-6 ">
-                    <video class="embed-responsive-item" autoplay muted loop poster="https://tanq.kaduo.jp/assets/img/intro-clip.jpg">
-                        <source src="" data-src="https://tanq.kaduo.jp/assets/img/intro-clip.mp4" type="video/mp4">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                    <video class="w-100" autoplay muted loop poster="../../assets/img/intro-clip.jpg">
+                        <source src="" data-src="../../assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
+                </div>
                 </div>
             </div>
 
