@@ -11,7 +11,7 @@ include($webroot."/header.php");
                     <div class="h-100 align-items-center">
                         <div class="head-title text-center">
                             <img src="../../assets/img/online-workshop2021-title.png" style="width:30%;    padding-top: 9%;">
-<h2 class="text-white m-3">2021.XX.XX (Sun)</h2>
+<h2 class="text-white m-3">2021.8.11 (Sun)</h2>
                         </div>
                     </div>
                 </div>
@@ -124,8 +124,8 @@ include($webroot."/header.php");
             </h1>
             <div class="text-center">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">日付　2021年XX月XX日13時～16時</li>
-                    <li class="list-group-item">申込締切　　2021年XX月XX日</li>
+                    <li class="list-group-item">日付　2021年8月11日13時～16時</li>
+                    <li class="list-group-item">申込締切　　2021年7月31日</li>
                   </ul>
             </div>
             <div class="schedule row">
