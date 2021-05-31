@@ -333,8 +333,23 @@ include($webroot."/header.php");
                 </div>
             </div>
             <div class="schedule row">
+                <div class="col-md-3 schedule-time">
+                    18:40 - 19:00
+                </div>
+                <div class="col-md-9">
+                    <h3>ラドン検出器開発
+                    </h3>
+                    <p class="schedule-speaker">
+                    <span class="material-icons icon">account_circle</span> <span class="margin">三明康郎</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">斎藤隆太</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">丸田京華</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">遠藤心汰朗</span>
+                    </p>
+                                 </div>
+            </div>
+            <div class="schedule row">
                 <div class="col-sm-6 col-md-3 schedule-time">
-                    18:45 - 19:00
+                    19:00 - 19:10
                 </div>
                 <div class="col-md-9">
                     <h3>まとめ</h3>
