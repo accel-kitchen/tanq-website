@@ -122,7 +122,8 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 小林南奈</span>
                     </p>
                     <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>JpGU2021</button>
+                    <button onclick="location.href='<?php echo $urlroot ?>/material/kaichi-jpgu2021.pdf'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
                 </div>
             </div>
 
@@ -216,7 +217,8 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高1 浦野慈梨</span>
                     </p>
                     <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>JpGU2021</button>
+                    <button onclick="location.href='<?php echo $urlroot ?>/material/toshimagaokaB-jpgu2021.pdf'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
                 </div>
             </div>
 
@@ -236,7 +238,8 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 木村萌恵</span>
                     </p>
                     <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>JpGU2021</button>
+                    <button onclick="location.href='<?php echo $urlroot ?>/material/hibiya-jpgu2021.pdf'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
                 </div>
             </div>
             <div class="schedule row">
@@ -303,7 +306,8 @@ include($webroot."/header.php");
                     </p>
                     <button onclick="location.href='https://www.notion.so/kaduo/78a75b046b0145e4afee3ce5ed285e0a'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
                     </span> これまでの進捗</button>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>JpGU2021</button>
+                    <button onclick="location.href='<?php echo $urlroot ?>/material/hiroo-jpgu2021.pdf'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
                 </div>
             </div>
             <div class="schedule row">
