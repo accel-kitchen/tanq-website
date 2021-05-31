@@ -273,7 +273,7 @@ include($webroot."/header.php");
                 18:00 - 18:10
                 </div>
                 <div class="col-md-9">
-                    <h3>TBD（古墳）</h3>
+                    <h3>古墳ミュオグラフィ</h3>
                     <p class="schedule-description">
                         <span class="material-icons icon">location_on</span><span class="margin">埼玉県</span>
                         <span class="material-icons icon">location_city</span> <span class="margin">早稲田大学本庄高等学院</span>
