@@ -27,7 +27,7 @@ include($webroot."/header.php");
                     <img src="./assets/img/tanq-online-progressreport2021-banner.jpg" class="img-fluid card-img rounded">
                 </div>
                 <div class="card-img-overlay d-flex justify-content-center" style="top:40%">
-                    <button class="btn btn-primary btn-lg d-blcok mx-auto align-self-center " onclick="location.href='./progress-report/2020-2/'" role="button">もっと詳しく知る</button>
+                    <button class="btn btn-primary btn-lg d-blcok mx-auto align-self-center " onclick="location.href='./progress-report/2021-1/'" role="button">もっと詳しく知る</button>
                 </div>
             </div>
         </div>

@@ -15,7 +15,7 @@ include($webroot."/header.php");
                     <div class="h-100 align-items-center">
                         <div class="text-center event" style="margin-top:20%">
                             <p class="text-center text-white event-date">探究進捗報告会2021年夏</p>
-                            <p class="text-center text-white ">2020.6.12 (Sat.) 16:00 - 18:00</p>
+                            <p class="text-center text-white ">2021.6.12 (Sat.) 16:00 - 18:00</p>
                             <p class="title-description text-center text-white">予約不要・入退場自由</p>
 
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
