@@ -50,7 +50,7 @@ include($webroot."/header.php");
     <section class="page-section" id="digest" style="margin-bottom: -2%">
         <div class="container">
             <div class="ratio ratio-16x9">
-                <iframe class="w-100" src="https://www.youtube.com/embed/-Y6lb9V3JPk?start=586"></iframe>
+                <iframe class="w-100" src="https://www.youtube.com/embed/Jpn2mGVw0wQ"></iframe>
             </div>
         </div>
     </section>
