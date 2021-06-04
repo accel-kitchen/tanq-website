@@ -281,9 +281,13 @@ include($webroot."/header.php");
                         <br>
                     </p>
                     <p class="schedule-speaker">
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 柳本和奏</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 石澤知世</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 小野聡</span>
                     </p>
 
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>進捗</button>
+                    <button onclick="location.href='https://www.canva.com/design/DAEgJ0qBfFQ/NGxtwy8sClKsqIUqApqxiQ/view?utm_content=DAEgJ0qBfFQ'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
                 </div>
             </div>
 
