@@ -23,7 +23,7 @@ include($webroot."/header.php");
     <section class="page-section" id="intro">
         <div class="container section">
             <div class="row">
-                <div class="col-sm-12 col-lg-7">
+                <div class="col-lg-6">
                     <div class="pull-left">
                         <h2 class="section-title">
                             宇宙線探究活動　探Qって？
@@ -32,16 +32,19 @@ include($webroot."/header.php");
                     <div class="container">
                         <p>宇宙線の測定・観測と聞くと難しそうですが、探Qでこの宇宙線探究活動を中高生でもできるデバイスを開発・配布を行ってきており、たくさんの中高生が共同研究に加わっています。現在ではおよそ１０校の中高・高専で研究者のサポートを受けて宇宙線検出器の製作・探究活動を行っており、研究会で成果を発表するような高校生もいます。
                         </p>
-                        <a href="https://tanq.kaduo.jp/"><span class="material-icons icon">web</span> 探Qについて</a>
+                        <a href="../../">探Qについて</a>
                         <br><br>
                     </div>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-16by9 col-sm-12 col-lg-5 ">
-                    <video class="embed-responsive-item" autoplay muted loop poster="./../../assets/img/intro-clip.jpg">
-                        <source src="" data-src="./../../assets/img/intro-clip.mp4" type="video/mp4">
+                <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                    <video class="w-100" autoplay muted loop poster="../../assets/img/intro-clip.jpg">
+                        <source src="" data-src="../../assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
                 </div>
+                </div>
             </div>
+
         </div>
     </section>
     <hr>

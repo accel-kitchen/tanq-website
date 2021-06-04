@@ -197,7 +197,7 @@ include($webroot."/header.php");
         </div>
         <div class="container">
             <ul class="application">
-                <li>以下の申し込みフォームから申込をお願いいたします。締切は11月8日24時までになります。</li>
+                <li>以下の申し込みフォームから申込をお願いいたします。締切は7月31日24時までになります。</li>
                 <li>申し込みをされた方には確認メールが自動返信されます。自動返信メールを受け取れなかった場合はお手数ですが<a href="mailto:info@accel-kitchen.com">info@accel-kitchen.com</a>までご連絡ください。
                 </li>
                 <li>応募人数によって募集期間中に締め切ることがあります。</li>
@@ -205,7 +205,7 @@ include($webroot."/header.php");
             <br>
             <h4>申し込みフォーム</h4>
             <hr>
-            <form action="https://script.google.com/macros/s/AKfycbxiecqqbNr9kBCgzCDe6_YXOwHt1DA8frdsOtijqrSvQUUI_k7i5JciJUQP3OGRXR7Q3g/exec" method="post">
+            <form id="form" action="https://script.google.com/macros/s/AKfycbwhyCrpgMMc_mruHykio9TdmSH9JDn09EfM2TvcetCd5WNnbYR7ka7r9Gc1SkiaNF1M3A/exec" method="post">
 
                 <div class="form-group">
                     <div class="m-3">
@@ -234,7 +234,7 @@ include($webroot."/header.php");
                 <div class="m-3">
                     <label for="tel" class="control-label">メールアドレス</label>
 
-                        <input type="email" class="form-control alphabet" name="email" id="email" placeholder="info@accel-kitchen.com" oninvalid="this.setCustomValidity('メールアドレスの入力は必須です。')" required>
+                        <input type="email" class="form-control alphabet" name="email" id="email" placeholder="info@accel-kitchen.com" required>
                 </div>
                 <hr>
                 <div class="m-3">
@@ -294,12 +294,19 @@ include($webroot."/header.php");
 
                 <div class="g-recaptcha" data-sitekey="6LfxhcQUAAAAAEP5PkBSxJ-_TO9axOZynqvgxSC4"></div>
 
-                <button type="submit" class=" m-3 btn btn-primary btn-lg recaptcha">送信</button>
+                <button type="submit" class=" m-3 btn btn-primary btn-lg g-recaptcha" 
+        data-sitekey="6Lf-sxAbAAAAAJzCPh3sI2ttMFJ8WNKWlmZ-Hnpq" data-callback='onSubmit' 
+        data-action='submit'
+       >送信</button>
             </form>
         </div>
     </section>
-
-
+    <script>
+   function onSubmit(token) {
+     document.getElementById("form").submit();
+   }
+ </script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- /FOOTER -->
     <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
