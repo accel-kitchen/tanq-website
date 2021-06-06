@@ -192,7 +192,7 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高1 末廣和夏</span>
                         <span class="material-icons icon">account_circle</span> <span class="margin">高1 森本結衣</span>
                     </p>
-                    <button onclick="location.href='https://www.notion.so/kaduo/3b179a3cdb204f88b0f3f8081f56f39f'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    <button onclick="location.href='https://www.notion.so/kaduo/2021-96096b546576462f88bb3afbf7e73947'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
                     </span> これまでの進捗</button>
 
                     <button onclick="location.href='<?php echo $urlroot ?>/material/toshima-steamfesta2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>ベネッセSTEAMフェスタ 2021</button>
