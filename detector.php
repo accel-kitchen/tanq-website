@@ -136,7 +136,7 @@ include($webroot."/header.php");
         <div class="container">
           <p>
             宇宙線探究活動を始めませんか。検出器は東北大学を中心とした大学生によって製作され、探究活動に興味を持つ中高生を中心に配布活動を行っています。興味のある方は<a
-              href="index.html#contact"
+              href="index.php#contact"
               >こちら</a
             >に連絡ください。
           </p>
