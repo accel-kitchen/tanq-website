@@ -332,7 +332,8 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 高梨美佳</span>
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 髙橋夢玖</span>
                     </p>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
+                    <button onclick="location.href='https://www.notion.so/6-12-f56998277f474a78b12faa681fec6871'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    </span> これまでの進捗</button>
                     <button onclick="location.href='<?php echo $urlroot ?>/material/kojyokan-jps-2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>物理学会Jr.セッション研究レポート</button>
                 </div>
             </div>
