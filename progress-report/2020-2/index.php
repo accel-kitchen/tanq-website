@@ -18,9 +18,9 @@ include($webroot."/header.php");
                             <p class="text-center text-white ">2020.12.22 (Tue.) 18:00 - 21:00</p>
                             <p class="title-description text-center text-white">予約不要・入退場自由</p>
 
-                            <button onclick="location.href='https://us02web.zoom.us/j/88013307181'" type="button" class="btn btn-primary">
+<!--                             <button onclick="location.href='https://us02web.zoom.us/j/88013307181'" type="button" class="btn btn-primary">
                                 Liveに参加する
-                              </button>
+                              </button> -->
                         </div>
                     </div>
                 </div>
