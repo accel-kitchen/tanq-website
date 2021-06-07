@@ -218,7 +218,6 @@ include($webroot."/header.php");
                     </p>
                     <button onclick="location.href='https://www.notion.so/kaduo/B-3e347aad00e949798a327bec66e68638'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
                     </span> これまでの進捗</button>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>JpGU2021</button>
                 </div>
             </div>
 
