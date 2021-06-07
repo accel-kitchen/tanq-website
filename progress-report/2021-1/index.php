@@ -33,13 +33,13 @@ include($webroot."/header.php");
             <div class="modal-content">
                 <div class="modal-header">
                     <p class="modal-title" id="staticBackdropLabel">Liveは6月12日16時から開始されます。</p>
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     LiveはZOOM Webiner上で行われます。ZOOMクライアントをインストールするか、対応ブラウザから当日ご参加ください。
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
                 </div>
             </div>
         </div>
