@@ -170,8 +170,9 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高2 宮本匠</span>
                         <span class="material-icons icon">account_circle</span> <span class="margin">高2 鈴木洸希</span>
                     </p>
-                    <button onclick="location.href='https://www.notion.so/kaduo/15d2e39e9726490683553c3acb48c033'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>これまでの進捗</button>
-                </div>
+                    <button onclick="location.href='https://www.notion.so/kaduo/15d2e39e9726490683553c3acb48c033'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    </span> これまでの進捗</button>
+                 </div>
                 
             </div>
 
@@ -261,8 +262,8 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 高梨美佳</span>
                     </p>
 
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
-                    
+                    <button onclick="location.href='https://www.notion.so/kaduo/78a75b046b0145e4afee3ce5ed285e0a'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    </span> これまでの進捗</button>
                     <button onclick="location.href='<?php echo $urlroot ?>/material/takanashi-innovation2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>米沢興譲館イノベーション塾</button>
                 </div>
             </div>
