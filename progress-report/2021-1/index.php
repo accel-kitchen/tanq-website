@@ -230,7 +230,7 @@ include($webroot."/header.php");
                 <div class="col-md-9">
                     <h3>CsIシンチレーターを用いた線源測定</h3>
                     <p class="schedule-description">
-                    <span class="material-icons icon">location_on</span><span class="margin">埼玉県</span>
+                    <span class="material-icons icon">location_on</span><span class="margin">東京都</span>
                         <span class="material-icons icon">location_city</span> <span class="margin">日比谷高校</span>
                         <span class="material-icons icon">supervisor_account</span> <span class="margin">東北大　帆足莉子</span>    
                     </p>
