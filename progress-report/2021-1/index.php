@@ -262,7 +262,7 @@ include($webroot."/header.php");
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 高梨美佳</span>
                     </p>
 
-                    <button onclick="location.href='https://www.notion.so/kaduo/78a75b046b0145e4afee3ce5ed285e0a'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    <button onclick="location.href='https://www.notion.so/kaduo/6-12-c2e9ce6b38ea41fb831c3416b23f6689'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
                     </span> これまでの進捗</button>
                     <button onclick="location.href='<?php echo $urlroot ?>/material/takanashi-innovation2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>米沢興譲館イノベーション塾</button>
                 </div>
