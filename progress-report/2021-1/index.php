@@ -121,6 +121,8 @@ include($webroot."/header.php");
                     <p class="schedule-speaker">
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 小林南奈</span>
                     </p>
+                    <button onclick="location.href='https://www.notion.so/728b37c62a71498f8b919947b441cafa'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    </span> これまでの進捗</button>
                     <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
                     <button onclick="location.href='<?php echo $urlroot ?>/material/kaichi-jpgu2021.pdf'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
                     </span>JpGU2021</button>
