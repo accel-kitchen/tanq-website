@@ -152,35 +152,11 @@ include($webroot."/header.php");
                 </div>
             </div>
 
-            <div class="schedule row">
 
+
+            <div class="schedule row">
                 <div class="col-md-3 schedule-time">
                     16:45 - 16:55
-                </div>
-
-                <div class="col-md-9">
-                    <h3>古墳ミュオグラフィ</h3>
-                    <p class="schedule-description">
-                        <span class="material-icons icon">location_on</span><span class="margin">埼玉県</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">早稲田大学本庄高等学院</span>
-
-                        <br>
-                    </p>
-                    <p class="schedule-speaker">
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 柳本和奏</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 石澤知世</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 小野聡</span>
-                    </p>
-
-                    <button onclick="location.href='https://www.canva.com/design/DAEgJ0qBfFQ/NGxtwy8sClKsqIUqApqxiQ/view?utm_content=DAEgJ0qBfFQ'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
-                    </span>JpGU2021</button>
-                </div>
-                
-            </div>
-
-            <div class="schedule row">
-                <div class="col-md-3 schedule-time">
-                    17:00 - 17:10
                 </div>
                 <div class="col-md-9">
                     <h3>高度と方位による宇宙線到来頻度の違い</h3>
@@ -204,7 +180,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                17:15 - 17:25
+                17:00 - 17:10
                 </div>
                 <div class="col-md-9">
                     <h3>アクリル板を用いたチェレンコフ光検出</h3>
@@ -227,7 +203,7 @@ include($webroot."/header.php");
 
             <div class="schedule row">
                 <div class="col-sm-6 col-md-3 schedule-time">
-                17:30 - 17:40
+                17:15 - 17:25
                 </div>
                 <div class="col-md-9">
                     <h3>CsIシンチレーターを用いた線源測定</h3>
@@ -246,7 +222,7 @@ include($webroot."/header.php");
             </div>
             <div class="schedule row">
                 <div class="col-md-3 schedule-time">
-                17:45 - 17:55
+                17:30 - 17:40
                 </div>
                 <div class="col-md-9">
                     <h3>日本とアルゼンチンでの宇宙線の到来頻度の違い</h3>
@@ -269,10 +245,10 @@ include($webroot."/header.php");
                     <button onclick="location.href='<?php echo $urlroot ?>/material/takanashi-innovation2021.pdf'" class="btn text-white btn-sm rounded"><span class="material-icons icon">article</span>米沢興譲館イノベーション塾</button>
                 </div>
             </div>
-
             <div class="schedule row">
+
                 <div class="col-md-3 schedule-time">
-                18:00 - 18:10
+                    17:45 - 17:55
                 </div>
                 <div class="col-md-9">
                     <h3>太陽と宇宙線の関係</h3>
@@ -292,8 +268,29 @@ include($webroot."/header.php");
                     <button onclick="location.href='https://www.notion.so/kaduo/15d2e39e9726490683553c3acb48c033'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
                     </span> これまでの進捗</button>
                  </div>
+                
+            </div>
+            <div class="schedule row">
+                <div class="col-md-3 schedule-time">
+                18:00 - 18:10
+                </div>
+                <div class="col-md-9">
+                    <h3>古墳ミュオグラフィ</h3>
+                    <p class="schedule-description">
+                        <span class="material-icons icon">location_on</span><span class="margin">埼玉県</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">早稲田大学本庄高等学院</span>
 
+                        <br>
+                    </p>
+                    <p class="schedule-speaker">
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 柳本和奏</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 石澤知世</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 小野聡</span>
+                    </p>
 
+                    <button onclick="location.href='https://www.canva.com/design/DAEgJ0qBfFQ/NGxtwy8sClKsqIUqApqxiQ/view?utm_content=DAEgJ0qBfFQ'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
+                </div>
             </div>
 
             <div class="schedule row">
