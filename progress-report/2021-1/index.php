@@ -18,7 +18,7 @@ include($webroot."/header.php");
                             <p class="text-center text-white ">2021.6.12 (Sat.) 16:00 - 18:00</p>
                             <p class="title-description text-center text-white">予約不要・入退場自由</p>
 
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <button onclick="location.href='https://us02web.zoom.us/j/84752537944'" type="button" class="btn btn-primary">
                                 Liveに参加する
                               </button>
                         </div>
@@ -27,7 +27,7 @@ include($webroot."/header.php");
             </div>
         </div>
     </header>
-
+    <!--
     <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -44,7 +44,7 @@ include($webroot."/header.php");
             </div>
         </div>
     </div>
-
+ -->
     <!-- 前回の進捗報告会 -->
 
     <section class="page-section" id="digest" style="margin-bottom: -2%">
@@ -215,7 +215,8 @@ include($webroot."/header.php");
                     <p class="schedule-speaker">
                         <span class="material-icons icon">account_circle</span> <span class="margin">高3 木村萌恵</span>
                     </p>
-                    <button class="btn text-white btn-sm rounded disabled"><span class="material-icons icon">article</span>これまでの進捗</button>
+                    <button onclick="location.href='https://www.notion.so/kaduo/2021-6-a13322f6cad84da5a87ffd3869eb4c54'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    </span> これまでの進捗</button>
                     <button onclick="location.href='<?php echo $urlroot ?>/material/hibiya-jpgu2021.pdf'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
                     </span>JpGU2021</button>
                 </div>
