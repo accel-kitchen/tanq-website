@@ -346,7 +346,7 @@ include($webroot."/header.php");
                 <div class="col-md-9">
                     <h3>ラドン検出器開発
                     </h3>
-                    <p class="schedule-speaker">
+                    <p class="schedule-speaker mt-3">
                     <span class="material-icons icon">account_circle</span> <span class="margin">三明康郎</span>
                         <span class="material-icons icon">account_circle</span> <span class="margin">斎藤隆太</span>
                         <span class="material-icons icon">account_circle</span> <span class="margin">丸田京華</span>
