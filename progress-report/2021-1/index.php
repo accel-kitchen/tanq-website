@@ -157,24 +157,24 @@ include($webroot."/header.php");
                 <div class="col-md-3 schedule-time">
                     16:45 - 16:55
                 </div>
+
                 <div class="col-md-9">
-                    <h3>太陽と宇宙線の関係</h3>
+                    <h3>古墳ミュオグラフィ</h3>
                     <p class="schedule-description">
-                        <span class="material-icons icon">location_on</span><span class="margin">静岡県</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">磐田南高等学校</span>
-                        <span class="material-icons icon">supervisor_account</span> <span class="margin">東京工業大 榎本晴日</span>
+                        <span class="material-icons icon">location_on</span><span class="margin">埼玉県</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">早稲田大学本庄高等学院</span>
+
                         <br>
                     </p>
                     <p class="schedule-speaker">
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 西堀宙知</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 小川祐佳</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 三木花</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 宮本匠</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 鈴木洸希</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 柳本和奏</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 石澤知世</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 小野聡</span>
                     </p>
-                    <button onclick="location.href='https://www.notion.so/kaduo/15d2e39e9726490683553c3acb48c033'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
-                    </span> これまでの進捗</button>
-                 </div>
+
+                    <button onclick="location.href='https://www.canva.com/design/DAEgJ0qBfFQ/NGxtwy8sClKsqIUqApqxiQ/view?utm_content=DAEgJ0qBfFQ'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
+                    </span>JpGU2021</button>
+                </div>
                 
             </div>
 
@@ -275,22 +275,25 @@ include($webroot."/header.php");
                 18:00 - 18:10
                 </div>
                 <div class="col-md-9">
-                    <h3>古墳ミュオグラフィ</h3>
+                    <h3>太陽と宇宙線の関係</h3>
                     <p class="schedule-description">
-                        <span class="material-icons icon">location_on</span><span class="margin">埼玉県</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">早稲田大学本庄高等学院</span>
-
+                        <span class="material-icons icon">location_on</span><span class="margin">静岡県</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">磐田南高等学校</span>
+                        <span class="material-icons icon">supervisor_account</span> <span class="margin">東京工業大 榎本晴日</span>
                         <br>
                     </p>
                     <p class="schedule-speaker">
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 柳本和奏</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 石澤知世</span>
-                        <span class="material-icons icon">account_circle</span> <span class="margin">高3 小野聡</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 西堀宙知</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 小川祐佳</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 三木花</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 宮本匠</span>
+                        <span class="material-icons icon">account_circle</span> <span class="margin">高2 鈴木洸希</span>
                     </p>
+                    <button onclick="location.href='https://www.notion.so/kaduo/15d2e39e9726490683553c3acb48c033'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">history
+                    </span> これまでの進捗</button>
+                 </div>
 
-                    <button onclick="location.href='https://www.canva.com/design/DAEgJ0qBfFQ/NGxtwy8sClKsqIUqApqxiQ/view?utm_content=DAEgJ0qBfFQ'" class="btn history text-white btn-sm rounded"><span class="material-icons icon">article
-                    </span>JpGU2021</button>
-                </div>
+
             </div>
 
             <div class="schedule row">
