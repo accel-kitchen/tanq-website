@@ -53,6 +53,7 @@
                             <li><a class="dropdown-item" href="https://tanq.kaduo.jp/workshop/online2020/"> オンライン宇宙線探究ワークショップ（2020.11.15） </a></li>
                             <li><a class="dropdown-item" href="https://tanq.kaduo.jp/progress-report/2020-2/"> 宇宙線探究活動進捗報告会（2020.12.22） </a></li>
                             <li><a class="dropdown-item" href="https://tanq.kaduo.jp/progress-report/2021-1/"> 宇宙線探究活動進捗報告会（2021.6.12） </a></li>
+                            <li><a class="dropdown-item" href="https://tanq.kaduo.jp/workshop/online2021/"> オンライン宇宙線探究ワークショップ（2021.8.11） </a></li>      
                         </ul>
                     </li>
                 </ul>

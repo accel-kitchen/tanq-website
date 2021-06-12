@@ -161,7 +161,7 @@ include($webroot."/header.php");
                     <h3>高度と方位による宇宙線到来頻度の違い</h3>
                     <p class="schedule-description">
                         <span class="material-icons icon">location_on</span><span class="margin">東京都</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">豊島岡女子学園</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">豊島岡女子学園　ミューオンズ</span>
                         <span class="material-icons icon">supervisor_account</span> <span class="margin">早稲田大 大澤真優乃</span>
                         <br>
                     </p>
@@ -185,7 +185,7 @@ include($webroot."/header.php");
                     <h3>アクリル板を用いたチェレンコフ光検出</h3>
                     <p class="schedule-description">
                         <span class="material-icons icon">location_on</span><span class="margin">東京都</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">豊島岡女子学園</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">豊島岡女子学園　チェレン</span>
                         <span class="material-icons icon">supervisor_account</span> <span class="margin">早稲田大 大澤真優乃</span>
                         <br>
                     </p>
@@ -325,7 +325,7 @@ include($webroot."/header.php");
                     </h3>
                     <p class="schedule-description">
                         <span class="material-icons icon">location_on</span><span class="margin">山形県</span>
-                        <span class="material-icons icon">location_city</span> <span class="margin">米沢興譲館高等学校</span>
+                        <span class="material-icons icon">location_city</span> <span class="margin">米沢興譲館高等学校　バリオンズ</span>
                         <span class="material-icons icon">supervisor_account</span> <span class="margin">東北大2年 斎藤隆太</span>
                         <br>
                     </p>
