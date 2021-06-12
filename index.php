@@ -391,7 +391,63 @@ include($webroot."/header.php");
                                 </div>
                             </a>
                         </div>
+                        <div class="col mb-4">
+                            <a href="https://www.notion.so/kaduo/B-3e347aad00e949798a327bec66e68638">
+                                <div class="card">
+                                    <div class="card-img"><img src="./assets/img/toshimaB-top.jpg" class="card-img-top" alt="...">
+                                        <div class="img-center text-center">
+                                            <p>小型のチェレンコフ光検出器をつくる</p>
+                                            <p class="small">豊島岡女子学園（チェレン）　</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text small">チェレンコフ光とは、荷電粒子が物質中を光速を超えて通過するときに発する光です。宇宙線検出器を改造し、チェレンコフ光を検出する最適な条件を研究しています。</p>
+                                        <div class="text-right">
+                                            <small class="text-muted ">2020.12~</small>
 
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col mb-4">
+                                    <a href="https://www.notion.so/kaduo/2021-6-a13322f6cad84da5a87ffd3869eb4c54">
+                                        <div class="card">
+                                            <div class="card-img"><img src="./assets/img/hibiya-top.jpg" class="card-img-top" alt="...">
+                                                <div class="img-center text-center">
+                                                    <p>CsIシンチレーターを用いて放射線源を測定する</p>
+                                                    <p class="small">日比谷高校</p>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text small">CsIシンチレーターを用いて、<sup>137</sup>Csや<sup>60</sup>COといった線源の測定をおこなっています。</p>
+                                                <div class="text-right">
+                                                    <small class="text-muted ">2021.1~</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="col mb-4">
+                                        <a href="https://www.notion.so/kaduo/728b37c62a71498f8b919947b441cafa">
+                                            <div class="card">
+                                                <div class="card-img"><img src="./assets/img/kaichi-top.jpg" class="card-img-top" alt="...">
+                                                    <div class="img-center text-center">
+                                                        <p>宇宙線による校舎の天井の厚みの推定</p>
+                                                        <p class="small">開智高等学校</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    <p class="card-text small">宇宙線ミュオンの透過力を利用して構造物の内部を透視する技術をミュオグラフィといいます。この原理を応用して、校舎の天井のコンクリート厚さの推定を行いました。</p>
+                                                    <div class="text-right">
+                                                        <small class="text-muted ">2020.11~</small>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
                     </div>
                 </div>
             </div>
