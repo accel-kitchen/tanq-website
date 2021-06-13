@@ -1,6 +1,6 @@
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
-include($webroot."/header.php");
+include($webroot."/tanq/header.php");
 ?>
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header>
@@ -292,10 +292,9 @@ include($webroot."/header.php");
                 </div>
 
 
-                <div class="g-recaptcha" data-sitekey="6LfxhcQUAAAAAEP5PkBSxJ-_TO9axOZynqvgxSC4"></div>
 
                 <button type="submit" class=" m-3 btn btn-primary btn-lg g-recaptcha" 
-        data-sitekey="6Lf-sxAbAAAAAJzCPh3sI2ttMFJ8WNKWlmZ-Hnpq" data-callback='onSubmit' 
+        data-sitekey="6Ledhi8bAAAAABWxvlLvYRPDBs1Dxnf3HEBOOHtJ" data-callback='onSubmit' 
         data-action='submit'
        >送信</button>
             </form>

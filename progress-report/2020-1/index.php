@@ -1,6 +1,6 @@
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
-include($webroot."/header.php");
+include($webroot."/tanq/header.php");
 ?>
 
     <!-- Full Page Image Header with Vertically Centered Content -->

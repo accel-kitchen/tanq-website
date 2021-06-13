@@ -1,7 +1,7 @@
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
 $urlroot = "https://tanq.kaduo.jp";
-include($webroot."/header.php");
+include($webroot."/tanq/header.php");
 ?>
 
     <!-- Full Page Image Header with Vertically Centered Content -->

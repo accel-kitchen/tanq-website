@@ -1,6 +1,6 @@
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
-include($webroot."/header.php");
+include($webroot."/tanq/header.php");
 ?>
 
 
@@ -52,7 +52,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-6">
                     <div class="ratio ratio-16x9">
-                    <video class="w-100" autoplay muted loop poster="./assets/img/intro-clip.jpg">
+                    <video class="w-100" autoplay muted playsinline loop poster="./assets/img/intro-clip.jpg">
                         <source src="" data-src="./assets/img/intro-clip.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -485,7 +485,7 @@ include($webroot."/header.php");
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/kono.jpg">
+                        <img class="rounded-circle" src="./assets/img/kono.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">河野理夏子</h2>
@@ -497,7 +497,7 @@ include($webroot."/header.php");
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/maruta.jpg">
+                        <img class="rounded-circle" src="./assets/img/maruta.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">丸田京華</h2>
@@ -508,7 +508,7 @@ include($webroot."/header.php");
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/kita.jpg">
+                        <img class="rounded-circle" src="./assets/img/kita.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">喜多亮介</h2>
@@ -519,7 +519,7 @@ include($webroot."/header.php");
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/saito.jpg">
+                        <img class="rounded-circle" src="./assets/img/saito.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">齋藤隆太</h2>
@@ -530,7 +530,7 @@ include($webroot."/header.php");
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/osawa.jpg">
+                        <img class="rounded-circle" src="./assets/img/osawa.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">大澤真優乃</h2>
@@ -540,7 +540,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/enomoto.jpg">
+                        <img class="rounded-circle" src="./assets/img/enomoto.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">榎本晴日</h2>
@@ -550,7 +550,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/akiyama.jpg">
+                        <img class="rounded-circle" src="./assets/img/akiyama.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">秋山翔希</h2>
@@ -560,7 +560,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/nose.jpg">
+                        <img class="rounded-circle" src="./assets/img/nose.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">能勢千鶴</h2>
@@ -570,7 +570,7 @@ include($webroot."/header.php");
 </div>
                     <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/hoashi.jpg">
+                        <img class="rounded-circle" src="./assets/img/hoashi.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">帆足莉子</h2>
@@ -580,7 +580,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/minakawa.jpg">
+                        <img class="rounded-circle" src="./assets/img/minakawa.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">皆川幸穂</h2>
@@ -590,7 +590,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/nakagawa.jpg">
+                        <img class="rounded-circle" src="./assets/img/nakagawa.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">中川鈴彩</h2>
@@ -600,7 +600,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/sasaki.jpg">
+                        <img class="rounded-circle" src="./assets/img/sasaki.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">佐々木真奈香</h2>
@@ -610,7 +610,7 @@ include($webroot."/header.php");
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="container-img">
-                        <img class="rounded-circle" src="../../assets/img/endo.jpg">
+                        <img class="rounded-circle" src="./assets/img/endo.jpg">
                     </div>
                     <div class="container section text-center">
                         <h2 class="section-title">遠藤心汰朗</h2>

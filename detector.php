@@ -1,6 +1,6 @@
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
-include($webroot."/header.php");
+include($webroot."/tanq/header.php");
 ?>
 
     <!-- Full Page Image Header with Vertically Centered Content -->
@@ -10,7 +10,7 @@ include($webroot."/header.php");
           <div
             class="head-bg-img"
             style="
-              background-image: url('../../assets/img/title-background-detector.jpg');
+              background-image: url('./assets/img/title-background-detector.jpg');
             "
           ></div>
           <div class="container h-100">

@@ -1,13 +1,13 @@
 <?php
 $webroot = $_SERVER['DOCUMENT_ROOT'];
-include($webroot."/header.php");
+include($webroot."/tanq/header.php");
 ?>
 
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header>
         <div class="head-bg head-bg-fluid">
             <div class="masthead">
-                <div class="head-bg-img" style="background-image: url('../../assets/img/title-background4.jpg')"></div>
+                <div class="head-bg-img" style="background-image: url('./assets/img/title-background4.jpg')"></div>
                 <div class="container h-100">
                     <div class="h-100 align-items-center">
                         <div class="head-title text-center text-title"> 全国の研究者や中高生との交流 </div>
