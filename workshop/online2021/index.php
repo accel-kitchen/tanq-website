@@ -2,6 +2,17 @@
 $webroot = $_SERVER['DOCUMENT_ROOT'];
 include($webroot."/tanq/header.php");
 ?>
+
+<style>
+  .header-title {
+    padding-top: 6%
+  }
+@media screen and (max-width:992px){
+    .header-title {
+    padding-top:20%
+  }
+}
+</style>
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header>
         <div class="head-bg head-bg-fluid">
@@ -9,8 +20,8 @@ include($webroot."/tanq/header.php");
                 <div class="head-bg-img"></div>
                 <div class="container h-100">
                     <div class="h-100 align-items-center">
-                        <div class="head-title text-center">
-                            <img src="../../assets/img/online-workshop2021-title.png" style="width:30%;    padding-top: 9%;">
+                        <div class="head-title text-center">a
+                            <img src="../../assets/img/online-workshop2021-title.png" class="header-title" style="width:35%;">
 <h2 class="text-white m-3">2021.8.11 (Sun)</h2>
                         </div>
                     </div>

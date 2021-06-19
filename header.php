@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width,initial-scale=1"> 
     <title>宇宙線探究活動　探Q</title>
 
     <!-- CSS only -->

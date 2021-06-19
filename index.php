@@ -188,7 +188,7 @@ include($webroot."/tanq/header.php");
                         </div>
 
                         <div class="col mb-4">
-                            <a href="https://youtu.be/yK8ywJyEbio?t=3076">
+                            <a href="https://www.notion.so/kaduo/c9e17fb4efa84d0b9dea28bc5193d027">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/bl4s-top.jpg" class="card-img-top" alt="...">
                                         <div class="img-center text-center">
@@ -231,7 +231,7 @@ include($webroot."/tanq/header.php");
                                     <div class="card-img"><img src="./assets/img/hiroo-top.jpg" class="card-img-top" alt="...">
                                         <div class="img-center text-center">
                                             <p>宇宙線中性子を測定して積雪量を測る</p>
-                                            <p class="small">広尾学園</p>
+                                            <p class="small">広尾学園・山形東高校</p>
                                         </div>
                                     </div>
                                     <div class="card-body">
