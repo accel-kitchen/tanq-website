@@ -4,12 +4,19 @@ include($webroot."/tanq/header.php");
 ?>
 
 <style>
-  .header-title {
-    padding-top: 6%
+  .head-title {
+    padding-top: 70px
   }
-@media screen and (max-width:992px){
-    .header-title {
-    padding-top:20%
+  .header-title-img {
+    width:300px
+  }
+@media screen and (min-width:576px){
+    .head-title {
+    padding-top:70px
+  }
+  @media screen and (min-width:992px){
+    .head-title {
+    padding-top:170px
   }
 }
 </style>
@@ -20,8 +27,8 @@ include($webroot."/tanq/header.php");
                 <div class="head-bg-img"></div>
                 <div class="container h-100">
                     <div class="h-100 align-items-center">
-                        <div class="head-title text-center">a
-                            <img src="../../assets/img/online-workshop2021-title.png" class="header-title" style="width:35%;">
+                        <div class="head-title text-center">
+                            <img src="../../assets/img/online-workshop2021-title.png" class="header-title-img">
 <h2 class="text-white m-3">2021.8.11 (Sun)</h2>
                         </div>
                     </div>

@@ -54,6 +54,10 @@ p {
   .title-description {
     font-size: 1em !important;
   }
+  .masthead {
+    height: 15vw !important;
+    min-height: 300px !important;
+  }
 }
 
 span.icon-large {

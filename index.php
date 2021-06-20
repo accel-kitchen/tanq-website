@@ -2,19 +2,38 @@
 $webroot = $_SERVER['DOCUMENT_ROOT'];
 include($webroot."/tanq/header.php");
 ?>
-
-
+<style>
+  .banner:hover {
+    opacity: 80%
+  }
+  .head-title {
+    padding-top: 70px
+  }
+  .header-title-img {
+    width: 400px;
+  }
+@media screen and (min-width:576px){
+    .head-title {
+    padding-top:80px
+  }
+  .header-title-img {
+    width: 400px;
+  }
+}
+  @media screen and (min-width:992px){
+    .head-title {
+    padding-top:120px;
+  }
+}
+</style>
     <!-- Full Page Image Header with Vertically Centered Content -->
     <header>
         <div class="head-bg head-bg-fluid">
             <div class="masthead">
                 <div class="head-bg-img"></div>
-                <div class="container h-100">
-                    <div class="h-100 align-items-center">
+                <div class="align-items-center container h-100">
                         <div class="head-title text-center">
-                            <img src="./assets/img/title.png" class="title">
-
-                        </div>
+                            <img src="./assets/img/title.png" class="header-title-img">
                     </div>
                 </div>
             </div>
@@ -22,14 +41,13 @@ include($webroot."/tanq/header.php");
     </header>
     <section class="page-section" id="intro">
         <div class="container section">
+            <a href="./workshop/online2021/">
             <div class="card">
                 <div class=" mx-auto">
-                    <img src="./assets/img/tanq-online-workshop2021-banner.jpg" class="img-fluid card-img rounded">
-                </div>
-                <div class="card-img-overlay d-flex justify-content-center" style="top:40%">
-                    <button class="btn btn-primary btn-lg d-blcok mx-auto align-self-center " onclick="location.href='./progress-report/2021-1/'" role="button">もっと詳しく知る</button>
+                    <img src="./assets/img/tanq-online-workshop2021-banner.jpg" class="img-fluid card-img rounded banner">
                 </div>
             </div>
+</a>
         </div>
     </section>
     <hr>
@@ -483,7 +501,7 @@ include($webroot."/tanq/header.php");
             </h1>
             <div class="row w-75 mx-auto">
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/kono.jpg">
                     </div>
@@ -495,7 +513,7 @@ include($webroot."/tanq/header.php");
                 </div>
 
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/maruta.jpg">
                     </div>
@@ -506,7 +524,7 @@ include($webroot."/tanq/header.php");
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/kita.jpg">
                     </div>
@@ -517,7 +535,7 @@ include($webroot."/tanq/header.php");
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/saito.jpg">
                     </div>
@@ -528,7 +546,7 @@ include($webroot."/tanq/header.php");
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/osawa.jpg">
                     </div>
@@ -538,7 +556,7 @@ include($webroot."/tanq/header.php");
                         <p>早稲田大学　基幹理工学部4年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/enomoto.jpg">
                     </div>
@@ -548,7 +566,7 @@ include($webroot."/tanq/header.php");
                         <p>東京工業大学　理学院地球惑星科学系修士1年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/akiyama.jpg">
                     </div>
@@ -558,7 +576,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部宇宙地球物理学科3年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/nose.jpg">
                     </div>
@@ -568,7 +586,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部物理系2年</p>
                     </div>
 </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/hoashi.jpg">
                     </div>
@@ -578,7 +596,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　工学研究科量子エネルギー工学専攻修士1年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/minakawa.jpg">
                     </div>
@@ -588,7 +606,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部研究科物理学専攻修士1年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/nakagawa.jpg">
                     </div>
@@ -598,7 +616,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部化学科1年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/sasaki.jpg">
                     </div>
@@ -608,7 +626,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　医学部保健学科放射線技術科学専攻1年</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/endo.jpg">
                     </div>
