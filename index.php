@@ -146,8 +146,19 @@ include($webroot."/tanq/header.php");
 
             <div class="album py-5 bg-light">
                 <div class="container">
+
+                <a href="https://www.notion.so/466b3b70c5184b00bdadbf5fdc1e64b5">
+                        <div class="card mb-3">
+                            <div class="card-img"><img src="./assets/img/progress-thumbnail.jpg" class="card-img-top" alt="...">
+                                <div class="img-center text-center">
+                                    <p style="font-size:1.2em">学会・成果発表</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
                     <div class="row row-cols-1 row-cols-lg-3">
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
 
                             <a href="https://www.notion.so/kaduo/322cd840f4814bda9dda73f72fa981d0">
                                 <div class="card">
@@ -167,7 +178,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/3b179a3cdb204f88b0f3f8081f56f39f">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/toshimaoka-top.jpg" class="card-img-top" alt="...">
@@ -186,7 +197,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/103969099cda4ca4a3613f752f4fb0c8">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/touoh-top.jpg" class="card-img-top" alt="...">
@@ -205,7 +216,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/c9e17fb4efa84d0b9dea28bc5193d027">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/bl4s-top.jpg" class="card-img-top" alt="...">
@@ -224,7 +235,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/bf88a3014fd74df684f9d87e1d64b19c">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
@@ -243,7 +254,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/78a75b046b0145e4afee3ce5ed285e0a">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/hiroo-top.jpg" class="card-img-top" alt="...">
@@ -263,7 +274,7 @@ include($webroot."/tanq/header.php");
                         </div>
 
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/2020-e64a70208e08415d96e950065b751932">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/waseda-top.jpg" class="card-img-top" alt="...">
@@ -282,7 +293,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/CMS-bdb1aa96574d48b4823bae6f80af1bb7">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/bmac-top.jpg" class="card-img-top" alt="...">
@@ -301,7 +312,7 @@ include($webroot."/tanq/header.php");
                             </a>
                         </div>
 
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/hiroo-top.jpg" class="card-img-top" alt="...">
@@ -319,7 +330,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/873ffea95da64d08a7369001e154fbaa">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/argentina-top.jpg" class="card-img-top" alt="...">
@@ -337,7 +348,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/35e7e2897edb4ceea9e16eba5e069a29">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/kojyokan-top.jpg" class="card-img-top" alt="...">
@@ -355,7 +366,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://youtu.be/yK8ywJyEbio?t=3827">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
@@ -373,7 +384,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/edf80ac5eca64607a75ff2eb0b0d7d43">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/card-top.jpg" class="card-img-top" alt="...">
@@ -391,7 +402,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/63d8c87378974b80a9d70f7786b02e42">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/iwataminami-top.jpg" class="card-img-top" alt="...">
@@ -409,7 +420,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                             <a href="https://www.notion.so/kaduo/B-3e347aad00e949798a327bec66e68638">
                                 <div class="card">
                                     <div class="card-img"><img src="./assets/img/toshimaB-top.jpg" class="card-img-top" alt="...">
@@ -428,7 +439,7 @@ include($webroot."/tanq/header.php");
                                 </div>
                             </a>
                         </div>
-                        <div class="col mb-4">
+                        <div class="col-lg-4 col-md-6 col-12 mb-4">
                                     <a href="https://www.notion.so/kaduo/2021-6-a13322f6cad84da5a87ffd3869eb4c54">
                                         <div class="card">
                                             <div class="card-img"><img src="./assets/img/hibiya-top.jpg" class="card-img-top" alt="...">
@@ -446,8 +457,8 @@ include($webroot."/tanq/header.php");
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col mb-4">
-                                    <div class="col mb-4">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                                    <div class=" mb-4">
                                         <a href="https://www.notion.so/kaduo/728b37c62a71498f8b919947b441cafa">
                                             <div class="card">
                                                 <div class="card-img"><img src="./assets/img/kaichi-top.jpg" class="card-img-top" alt="...">
@@ -483,7 +494,7 @@ include($webroot."/tanq/header.php");
                 参加校
             </h1>
             <div class="row">
-                <div class="container-img w-75 col-lg-9 mx-auto">
+                <div class="container-img w-75 -lg-9 mx-auto">
                     <img src="./assets/img/participants-map2.png">
                 </div>
             </div>
@@ -501,7 +512,7 @@ include($webroot."/tanq/header.php");
             </h1>
             <div class="row w-75 mx-auto">
 
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/kono.jpg">
                     </div>
@@ -513,7 +524,7 @@ include($webroot."/tanq/header.php");
                 </div>
 
 
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/maruta.jpg">
                     </div>
@@ -524,7 +535,7 @@ include($webroot."/tanq/header.php");
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/kita.jpg">
                     </div>
@@ -535,7 +546,7 @@ include($webroot."/tanq/header.php");
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/saito.jpg">
                     </div>
@@ -546,7 +557,7 @@ include($webroot."/tanq/header.php");
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/osawa.jpg">
                     </div>
@@ -556,7 +567,7 @@ include($webroot."/tanq/header.php");
                         <p>早稲田大学　基幹理工学部4年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/enomoto.jpg">
                     </div>
@@ -566,7 +577,7 @@ include($webroot."/tanq/header.php");
                         <p>東京工業大学　理学院地球惑星科学系修士1年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/akiyama.jpg">
                     </div>
@@ -576,7 +587,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部宇宙地球物理学科3年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/nose.jpg">
                     </div>
@@ -586,7 +597,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部物理系2年</p>
                     </div>
 </div>
-                    <div class="col-md-3 col-sm-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/hoashi.jpg">
                     </div>
@@ -596,7 +607,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　工学研究科量子エネルギー工学専攻修士1年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/minakawa.jpg">
                     </div>
@@ -606,7 +617,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部研究科物理学専攻修士1年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/nakagawa.jpg">
                     </div>
@@ -616,7 +627,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　理学部化学科1年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/sasaki.jpg">
                     </div>
@@ -626,7 +637,7 @@ include($webroot."/tanq/header.php");
                         <p>東北大学　医学部保健学科放射線技術科学専攻1年</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-6">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="container-img">
                         <img class="rounded-circle" src="./assets/img/endo.jpg">
                     </div>
