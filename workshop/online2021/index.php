@@ -29,7 +29,7 @@ include($webroot."/tanq/header.php");
                     <div class="h-100 align-items-center">
                         <div class="head-title text-center">
                             <img src="../../assets/img/online-workshop2021-title.png" class="header-title-img">
-<h2 class="text-white m-3">2021.8.11 (Sun)</h2>
+<h2 class="text-white m-3">2021.8.11 (Sun)・無料</h2>
                         </div>
                     </div>
                 </div>
@@ -216,6 +216,7 @@ include($webroot."/tanq/header.php");
         <div class="container">
             <ul class="application">
                 <li>以下の申し込みフォームから申込をお願いいたします。締切は7月31日24時までになります。</li>
+                <li>本イベントは無料です。</li>
                 <li>申し込みをされた方には確認メールが自動返信されます。自動返信メールを受け取れなかった場合はお手数ですが<a href="mailto:info@accel-kitchen.com">info@accel-kitchen.com</a>までご連絡ください。
                 </li>
                 <li>応募人数によって募集期間中に締め切ることがあります。</li>
