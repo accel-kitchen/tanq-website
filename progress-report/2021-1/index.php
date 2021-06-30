@@ -53,6 +53,12 @@ include($webroot."/tanq/header.php");
                 <iframe class="w-100" src="https://youtu.be/Oa3ybjylRpk"></iframe>
             </div>
         </div>
+        <div class="container">
+            <div class="ratio ratio-16x9">
+                <iframe class="w-100" src="https://www.youtube.com/embed/Oa3ybjylRpk"></iframe>
+            </div>
+        </div>
+        
     </section>
 
     <!-- 宇宙線探究活動　探Qって？ -->
