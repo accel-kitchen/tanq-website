@@ -28,7 +28,7 @@ include($webroot."/tanq/header.php");
                           <div class="h-100 align-items-center">
                               <div class="head-title text-center">
                                   <img src="../../assets/img/online-workshop2021-title.png" class="header-title-img">
-      <h2 class="text-white m-3"><s>2021.8.11 (Wed)　<strong>受付終了</strong></s><br>2021.8.14 (Sat)　<strong>受付中</strong><br></h2>
+      <h2 class="text-white m-3"><s>2021.8.11 (Wed)<strong>受付終了</strong></s><br>2021.8.14 (Sat)<strong>受付終了</strong><br>2021.10.23 (Sat)<strong>受付中</strong></h2>
                               </div>
                           </div>
                       </div>
@@ -141,13 +141,14 @@ include($webroot."/tanq/header.php");
                   </h1>
                   <div class="text-center">
                       <ul class="list-group list-group-flush">
-                          <li class="list-group-item">日付　<s>2021年8月11日13時～16時<strong>受付終了</strong></s>　　2021年8月14日14時～17時<strong>受付中</strong></li>
+                          <li class="list-group-item">日付　<s>2021年8月11日13時～16時<strong>受付終了</strong></s>　<br>　<s>2021年8月14日14時～17時<strong>受付終了</strong></s><br>
+                          2021年10月23日15時～18時<strong>受付中</strong></li>
                           <li class="list-group-item">申込締切　　2021年7月31日</li>
                         </ul>
                   </div>
                   <div class="schedule row">
                       <div class="col-md-3 schedule-time">
-                          13:00 - 13:30
+                          15:00 - 15:30
                       </div>
                       <div class="col-md-9">
                           <h3>イントロダクション</h3>
@@ -158,7 +159,7 @@ include($webroot."/tanq/header.php");
                   </div>
                   <div class="schedule row">
                       <div class="col-md-3 schedule-time">
-                          13:30 - 14:30
+                          15:30 - 16:00
                       </div>
                       <div class="col-md-9">
                           <h3>データ取得・解析の練習</h3>
@@ -169,7 +170,7 @@ include($webroot."/tanq/header.php");
                   </div>
                   <div class="schedule row">
                       <div class="col-md-3 schedule-time">
-                          14:30 - 15:00
+                          16:00 - 16:30
                       </div>
                       <div class="col-md-9">
                           <h3>測定内容説明</h3>
@@ -180,7 +181,7 @@ include($webroot."/tanq/header.php");
                   </div>
                   <div class="schedule row">
                       <div class="col-md-3 schedule-time">
-                          15:00 - 16:00
+                          16:30 - 17:30
                       </div>
                       <div class="col-md-9">
                           <h3>測定</h3>
@@ -191,7 +192,7 @@ include($webroot."/tanq/header.php");
                   </div>
                   <div class="schedule row">
                       <div class="col-md-3 schedule-time">
-                          16:00 - 16:30
+                          17:30 - 18:00
                       </div>
                       <div class="col-md-9">
                           <h3>まとめ・解散</h3>
@@ -287,10 +288,10 @@ include($webroot."/tanq/header.php");
       
                       <hr>
                       <div class="m-3">
-                          <label for="event" class="control-label">パソコン環境（原則、WindowsもしくはMacのパソコン環境をご用意ください）
+                          <label for="env" class="control-label">パソコン環境（原則、WindowsもしくはMacのパソコン環境をご用意ください）
                           </label>
                           <div class="input-group col-sm-3 continue">
-                              <select class="form-select" id="event" name="event">
+                              <select class="form-select" id="env" name="env">
                                       <option selected>パソコン環境を選択してください。</option>
                                       <option value="windows">Windows</option>
                                       <option value="mac">Mac</option>
