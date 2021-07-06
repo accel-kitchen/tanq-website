@@ -25,10 +25,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://accel-kitchen.com/tanq/#intro">概要</a>
-                    </li>
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="https://accel-kitchen.com/tanq/#feature" data-toggle="dropdown" id="featureDropdown">特徴</a>
                         <ul class="dropdown-menu"  aria-labelledby="featureDropdown">
@@ -57,12 +54,12 @@
                             <li><a class="dropdown-item" href="https://accel-kitchen.com/tanq/workshop/online2021/"> オンライン宇宙線探究ワークショップ（2021.8.11） </a></li>      
                         </ul>
                     </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item">
                         <a class="nav-link" href="https://twitter.com/accel_kitchen" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
                     </li>
-                  </ul>
+
+                </ul>
+
             </div>
         </div>
     </nav>
