@@ -47,7 +47,14 @@ include($webroot."/tanq/header.php");
                     <img src="./assets/img/tanq-online-workshop2021-banner.jpg" class="img-fluid card-img rounded banner">
                 </div>
             </div>
-</a>
+            </a>
+            <a href="https://accel-kitchen-1.peatix.com/">
+            <div class="card">
+                <div class=" mx-auto">
+                    <img src="./assets/img/sound-analysis2021-banner.jpg" class="img-fluid card-img rounded banner">
+                </div>
+            </div>
+            </a>
         </div>
     </section>
     <hr>
