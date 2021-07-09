@@ -23,8 +23,8 @@
             <button class="navbar-toggler mr-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse ml-auto">
-                <ul class="navbar-nav ml-auto">
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarResponsive">
+                <ul class="navbar-nav navbar-right">
                     <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="https://accel-kitchen.com/tanq/#feature" data-toggle="dropdown" id="featureDropdown">特徴</a>
                         <ul class="dropdown-menu"  aria-labelledby="featureDropdown">
@@ -54,7 +54,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/accel_kitchen" title="Follow on Twitter" target="_blank"><img src="./assets/img/twitter-logo.png" width="30px"></a>
+                        <a class="nav-link" href="https://twitter.com/accel_kitchen" title="Follow on Twitter" target="_blank"><img src="./assets/img/twitter-logo.svg" width="30px"></a>
                     </li>
 
                 </ul>
