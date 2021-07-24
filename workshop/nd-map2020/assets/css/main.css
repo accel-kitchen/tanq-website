@@ -1,0 +1,247 @@
+/* --------------------------------------------------------------------------
+ * 1 - General
+ * -------------------------------------------------------------------------- */
+
+
+/* 1.1  - Google fonts
+/* ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&subset=japanese");
+
+/* 1.2  - Global properties (body, common classes, structure etc)
+/* ========================================================================== */
+
+body {
+    font-family: "Noto Sans JP", sans-serif !important;
+    font-size: 14pt;
+    line-height: 1.33;
+    background: #fbfbfb;
+    color: #4b545a;
+    -webkit-font-kerning: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: visible !important;
+    /* reset animate.css / if hidden parallax buggy */
+    position: relative;
+    /*overflow-x: hidden;*/
+}
+
+p {
+    line-height: 1.8em;
+    font-size: 13pt;
+}
+
+span.icon-large {
+    font-size: 2em;
+}
+
+hr {
+    border: none;
+    border-top: dashed 1px rgb(128, 133, 146);
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+span.annotation {
+    line-height: 2em;
+    font-size: 0.8em;
+    color: #80878b;
+}
+
+div.annotation {
+    padding-top: 10px;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    color: #646a6e;
+}
+
+span.space {
+    padding-right: 5px;
+}
+
+
+/* 1.3  - Header
+/* ========================================================================== */
+
+nav {
+    opacity: 0.9;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+li.nav-item {
+    font-size: 0.9em;
+    margin-left: 3%;
+}
+
+ul.navbar-nav {
+    width: 80%;
+}
+
+.masthead {
+    height: 40vw;
+    min-height: 500px;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.head-bg-img {
+    background-image: url("../img/title-background3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.head-bg {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.head-bg .container {
+    z-index: 2;
+    position: relative;
+}
+
+img.title {
+    padding-top: 5%;
+    width: 50%;
+}
+
+
+/* 1.4  - Sections 
+/* ========================================================================== */
+
+
+/* General */
+
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+div.section {
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+p.lead {}
+
+
+/* video clip */
+
+div.digest {}
+
+.jumbotron {
+    height: 30vh;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+    opacity: 1;
+}
+
+.jumbotron .container {
+    z-index: 2;
+    position: relative;
+}
+
+div.digest-text {
+    width: 80%;
+    margin: 5%;
+}
+
+
+/* Application */
+
+ul.application li {
+    padding-bottom: 1.3em;
+    font-size: 0.9em;
+}
+
+
+/* Information */
+
+div.information-left {
+    text-align: center;
+}
+
+div.information-left p {
+    margin: 0;
+    padding: 0;
+}
+
+div.information-right {
+    display: table-cell;
+}
+
+div.information-icon {
+    padding: 5%;
+}
+
+
+/* History */
+
+div.history {
+    width: 100%;
+    margin-top: 5%;
+}
+
+div.container-img img {
+    width: 100%;
+}
+
+
+/* 1.5  - form
+/* ========================================================================== */
+
+span.badge {
+    margin-right: 1em;
+    font-weight: 400;
+}
+
+
+/* 1.6  - footer
+/* ========================================================================== */
+
+footer {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px;
+}
